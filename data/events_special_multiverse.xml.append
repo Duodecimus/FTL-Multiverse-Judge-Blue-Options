@@ -1,0 +1,1020 @@
+<mod:findName type="event" name="THE_JUDGES_ZOLTAN">
+  <mod:removeTag/>
+</mod:findName>
+<event name="THE_JUDGES_ZOLTAN">
+	<text>Thest bows. "I see you seek my... boons. But first... your proof. Present to me the crewmember you are... most proud of recruiting."</text>
+	<!--exotic aliens-->
+	<choice hidden="true" req="ACH_BOON_MORPH_FIRST" blue="true">
+		<text>Present a Morph.</text>
+		<event load="JUDGE_AWARD_MORPH"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_MORPH_REPEAT" blue="false">
+		<text>Present a Morph.</text>
+		<event load="JUDGE_AWARD_MORPH"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_SPIDER_FIRST" blue="true">
+		<text>Present a Spider.</text>
+		<event load="JUDGE_AWARD_SPIDER"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_SPIDER_REPEAT" blue="false">
+		<text>Present a Spider.</text>
+		<event load="JUDGE_AWARD_SPIDER"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_PONY_FIRST" blue="true">
+		<text>Present an Equinoid.</text>
+		<event load="JUDGE_AWARD_PONY"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_PONY_REPEAT" blue="false">
+		<text>Present an Equinoid.</text>
+		<event load="JUDGE_AWARD_PONY"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_LIZARD_FIRST" blue="true">
+		<text>Present a Lizard.</text>
+		<event load="JUDGE_AWARD_LIZARD"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_LIZARD_REPEAT" blue="false">
+		<text>Present a Lizard.</text>
+		<event load="JUDGE_AWARD_LIZARD"/>
+	</choice>
+
+	<!--<choice hidden="true" req="ACH_BOON_SIREN_FIRST" blue="true">
+		<text>Present a Siren.</text>
+		<event load="JUDGE_AWARD_SIREN"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_SIREN_REPEAT" blue="false">
+		<text>Present a Siren.</text>
+		<event load="JUDGE_AWARD_SIREN"/>
+	</choice>-->
+
+	<choice hidden="true" req="ACH_BOON_OSMIAN_FIRST" blue="true">
+		<text>Present an Osmian.</text>
+		<event load="JUDGE_AWARD_OSMIAN"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_OSMIAN_REPEAT" blue="false">
+		<text>Present an Osmian.</text>
+		<event load="JUDGE_AWARD_OSMIAN"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_ROCK_CULT_FIRST" blue="true">
+		<text>Present a Rockman Cultist.</text>
+		<event load="JUDGE_AWARD_ROCK_CULT"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_ROCK_CULT_REPEAT" blue="false">
+		<text>Present a Rockman Cultist.</text>
+		<event load="JUDGE_AWARD_ROCK_CULT"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_OBELISK_COG_FIRST" blue="true">
+		<text>Present a Cognitive.</text>
+		<event load="JUDGE_AWARD_OBELISK_COG"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_OBELISK_COG_REPEAT" blue="false">
+		<text>Present a Cognitive.</text>
+		<event load="JUDGE_AWARD_OBELISK_COG"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_LANIUS_AUG_FIRST" blue="true">
+		<text>Present an Augmented.</text>
+		<event load="JUDGE_AWARD_LANIUS_AUG"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_LANIUS_AUG_REPEAT" blue="false">
+		<text>Present an Augmented.</text>
+		<event load="JUDGE_AWARD_LANIUS_AUG"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_OBELISK_ANCI_FIRST" blue="true">
+		<text>Present an Obelisk.</text>
+		<event load="JUDGE_AWARD_OBELISK_ANCI"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_OBELISK_ANCI_REPEAT" blue="false">
+		<text>Present an Obelisk.</text>
+		<event load="JUDGE_AWARD_OBELISK_ANCI"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_HUMAN_SOLD_FIRST" blue="true">
+		<text>Present a Human Soldier.</text>
+		<event load="JUDGE_AWARD_HUMAN_SOLD"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_HUMAN_SOLD_REPEAT" blue="false">
+		<text>Present a Human Soldier.</text>
+		<event load="JUDGE_AWARD_HUMAN_SOLD"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_HUMAN_TECH_FIRST" blue="true">
+		<text>Present a Human Technician.</text>
+		<event load="JUDGE_AWARD_HUMAN_TECH"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_HUMAN_TECH_REPEAT" blue="false">
+		<text>Present a Human Technician.</text>
+		<event load="JUDGE_AWARD_HUMAN_TECH"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_ENGI_FIRST" blue="true">
+		<text>Present an Engi Defender.</text>
+		<event load="JUDGE_AWARD_ENGI"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_ENGI_REPEAT" blue="false">
+		<text>Present an Engi Defender.</text>
+		<event load="JUDGE_AWARD_ENGI"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_ZOLTAN_PEACE_FIRST" blue="true">
+		<text>Present a Zoltan Peacekeeper.</text>
+		<event load="JUDGE_AWARD_ZOLTAN_PEACE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_ZOLTAN_PEACE_REPEAT" blue="false">
+		<text>Present a Zoltan Peacekeeper.</text>
+		<event load="JUDGE_AWARD_ZOLTAN_PEACE"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_ZOLTAN_MART_FIRST" blue="true">
+		<text>Present a Duskbringer Martyr.</text>
+		<event load="JUDGE_AWARD_ZOLTAN_MART"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_ZOLTAN_MART_REPEAT" blue="false">
+		<text>Present a Duskbringer Martyr.</text>
+		<event load="JUDGE_AWARD_ZOLTAN_MART"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_ORCHID_PRAT_FIRST" blue="true">
+		<text>Present an Orchid Praetor.</text>
+		<event load="JUDGE_AWARD_ORCHID_PRAT"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_ORCHID_PRAT_REPEAT" blue="false">
+		<text>Present an Orchid Praetor.</text>
+		<event load="JUDGE_AWARD_ORCHID_PRAT"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_ORCHID_CULT_FIRST" blue="true">
+		<text>Present an Orchid Cultivator.</text>
+		<event load="JUDGE_AWARD_ORCHID_CULT"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_ORCHID_CULT_REPEAT" blue="false">
+		<text>Present an Orchid Cultivator.</text>
+		<event load="JUDGE_AWARD_ORCHID_CULT"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_MANTIS_SUZE_FIRST" blue="true">
+		<text>Present a Mantis Suzerain.</text>
+		<event load="JUDGE_AWARD_MANTIS_SUZE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_MANTIS_SUZE_REPEAT" blue="false">
+		<text>Present a Mantis Suzerain.</text>
+		<event load="JUDGE_AWARD_MANTIS_SUZE"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_MANTIS_WAR_FIRST" blue="true">
+		<text>Present a Free Mantis Warlord.</text>
+		<event load="JUDGE_AWARD_MANTIS_WAR"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_MANTIS_WAR_REPEAT" blue="false">
+		<text>Present a Free Mantis Warlord.</text>
+		<event load="JUDGE_AWARD_MANTIS_WAR"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_SLUG_SABO_FIRST" blue="true">
+		<text>Present a Slug Saboteur.</text>
+		<event load="JUDGE_AWARD_SLUG_SABO"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_SLUG_SABO_REPEAT" blue="false">
+		<text>Present a Slug Saboteur.</text>
+		<event load="JUDGE_AWARD_SLUG_SABO"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_SLUG_RANG_FIRST" blue="true">
+		<text>Present a Clansman Ranger.</text>
+		<event load="JUDGE_AWARD_SLUG_RANG"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_SLUG_RANG_REPEAT" blue="false">
+		<text>Present a Clansman Ranger.</text>
+		<event load="JUDGE_AWARD_SLUG_RANG"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_ROCK_CRUS_FIRST" blue="true">
+		<text>Present a Crusader.</text>
+		<event load="JUDGE_AWARD_ROCK_CRUS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_ROCK_CRUS_REPEAT" blue="false">
+		<text>Present a Crusader.</text>
+		<event load="JUDGE_AWARD_ROCK_CRUS"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_CRYSTAL_FIRST" blue="true">
+		<text>Present a Sentinel.</text>
+		<event load="JUDGE_AWARD_CRYSTAL"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_CRYSTAL_REPEAT" blue="false">
+		<text>Present a Sentinel.</text>
+		<event load="JUDGE_AWARD_CRYSTAL"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_SHELL_FIRST" blue="true">
+		<text>Present a Radiant.</text>
+		<event load="JUDGE_AWARD_SHELL"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_SHELL_REPEAT" blue="false">
+		<text>Present a Radiant.</text>
+		<event load="JUDGE_AWARD_SHELL"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_LEECH_FIRST" blue="true">
+		<text>Present an Ampere.</text>
+		<event load="JUDGE_AWARD_LEECH"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_LEECH_REPEAT" blue="false">
+		<text>Present an Ampere.</text>
+		<event load="JUDGE_AWARD_LEECH"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_GHOST_FIRST" blue="true">
+		<text>Present an Alpha Ghost.</text>
+		<event load="JUDGE_AWARD_GHOST"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_GHOST_REPEAT" blue="false">
+		<text>Present an Alpha Ghost.</text>
+		<event load="JUDGE_AWARD_GHOST"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_LANIUS_WELD_FIRST" blue="true">
+		<text>Present a Welder.</text>
+		<event load="JUDGE_AWARD_LANIUS_WELD"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_LANIUS_WELD_REPEAT" blue="false">
+		<text>Present a Welder.</text>
+		<event load="JUDGE_AWARD_LANIUS_WELD"/>
+	</choice>
+
+	<!--super elites-->
+	<choice hidden="true" req="ACH_BOON_HUMAN_MFK_FIRST" blue="true">
+		<text>Present an MFK.</text>
+		<event load="JUDGE_AWARD_HUMAN_MFK"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_HUMAN_MFK_REPEAT" blue="false">
+		<text>Present an MFK.</text>
+		<event load="JUDGE_AWARD_HUMAN_MFK"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_HUMAN_ANGEL_FIRST" blue="true">
+		<text>Present an Angel.</text>
+		<event load="JUDGE_AWARD_HUMAN_ANGEL"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_HUMAN_ANGEL_REPEAT" blue="false">
+		<text>Present an Angel.</text>
+		<event load="JUDGE_AWARD_HUMAN_ANGEL"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_MANTIS_BISH_FIRST" blue="true">
+		<text>Present a Mantis Bishop.</text>
+		<event load="JUDGE_AWARD_MANTIS_BISH"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_MANTIS_BISH_REPEAT" blue="false">
+		<text>Present a Mantis Bishop.</text>
+		<event load="JUDGE_AWARD_MANTIS_BISH"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_SLUG_KNIGHT_FIRST" blue="true">
+		<text>Present a Knight of Nights.</text>
+		<event load="JUDGE_AWARD_SLUG_KNIGHT"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_SLUG_KNIGHT_REPEAT" blue="false">
+		<text>Present a Knight of Nights.</text>
+		<event load="JUDGE_AWARD_SLUG_KNIGHT"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_ROCK_PALA_FIRST" blue="true">
+		<text>Present a Rock Paladin.</text>
+		<event load="JUDGE_AWARD_ROCK_PALA"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_ROCK_PALA_REPEAT" blue="false">
+		<text>Present a Rock Paladin.</text>
+		<event load="JUDGE_AWARD_ROCK_PALA"/>
+	</choice>
+
+	<!--uniques-->
+	<choice hidden="true" req="ACH_BOON_UNIQUE_FIRST" blue="true">
+		<text>Present a Unique Crew.</text>
+		<event load="JUDGE_AWARD_UNIQUE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_UNIQUE_REPEAT" blue="false">
+		<text>Present a Unique Crew.</text>
+		<event load="JUDGE_AWARD_UNIQUE"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_A55_FIRST" blue="true">
+		<text>Present a mechanical Unique Crew.</text>
+		<event load="JUDGE_AWARD_A55"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_A55_REPEAT" blue="false">
+		<text>Present a mechanical Unique Crew.</text>
+		<event load="JUDGE_AWARD_A55"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_KIDS_FIRST" blue="true">
+		<text>Present the Orchid Children.</text>
+		<event load="JUDGE_AWARD_KIDS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_KIDS_REPEAT" blue="false">
+		<text>Present the Orchid Children.</text>
+		<event load="JUDGE_AWARD_KIDS"/>
+	</choice>
+
+<!-- Forgemaster !-->
+	<choice hidden="true" req="ACH_BOON_FM_PLATED_FIRST" blue="true">
+		<text>Present a Plated Crew.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_PLATED"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_FM_PLATED_REPEAT" blue="false">
+		<text>Present a Plated Crew.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_PLATED"/>
+	</choice>
+
+<!-- Forgotten Diamonds !-->
+
+	<choice hidden="true" req="ACH_FR_BOON_DIAMOND_FIRST" blue="true">
+		<text>Present your metal diamond crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_DIAMOND"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_DIAMOND_REPEAT" blue="false">
+		<text>Present your metal diamond crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_DIAMOND"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_FR_BOON_OPERATOR_FIRST" blue="true">
+		<text>Present your operator crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_OPERATOR"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_OPERATOR_REPEAT" blue="false">
+		<text>Present your operator crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_OPERATOR"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_FR_BOON_METAL_LANIUS_FIRST" blue="true">
+		<text>Present your Metal Lanius crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_METAL_LANIUS"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_METAL_LANIUS_REPEAT" blue="false">
+		<text>Present your Metal Lanius crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_METAL_LANIUS"/>
+	</choice>
+
+<!--Forgotten Races!-->
+	<choice hidden="true" req="ACH_FR_BOON_SALT_LESS_FIRST" blue="true">
+		<text>Present your salt crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_SALT"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_SALT_LESS_REPEAT" blue="false">
+		<text>Present your salt crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_SALT"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_FR_BOON_SPHERAX_FIRST" blue="true">
+		<text>Present your Spherax crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_SPHERAX"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_SPHERAX_REPEAT" blue="false">
+		<text>Present your Spherax crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_SPHERAX"/>
+	</choice>	
+	
+	<choice hidden="true" req="ACH_FR_BOON_SALT_MORE_FIRST" blue="true">
+		<text>Present your Obyn crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_SALT_2"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_SALT_MORE_REPEAT" blue="false">
+		<text>Present your Obyn crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_SALT_2"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_FR_BOON_COMMONWEALTH_FIRST" blue="true">
+		<text>Present your commonwealth crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_COMMONWEALTH"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_COMMONWEALTH_REPEAT" blue="false">
+		<text>Present your commonwealth crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_COMMONWEALTH"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_FR_BOON_HAUNT_CREW_FIRST" blue="true">
+		<text>Present your undead haunt crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_HAUNT_CREW"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_HAUNT_CREW_REPEAT" blue="false">
+		<text>Present your undead haunt crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_HAUNT_CREW"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_FR_BOON_SNOWMAN_FIRST" blue="true">
+		<text>Present your snowman crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_SNOWMAN"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_SNOWMAN_REPEAT" blue="false">
+		<text>Present your snowman crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_SNOWMAN"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_FR_BOON_LAVAMAN_FIRST" blue="true">
+		<text>Present your lavaman crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_LAVAMAN"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_LAVAMAN_REPEAT" blue="false">
+		<text>Present your lavaman crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_LAVAMAN"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_FR_BOON_AIAVATAR_FIRST" blue="true">
+		<text>Present your AI Avatar crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_AIAVATAR"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_AIAVATAR_REPEAT" blue="false">
+		<text>Present your AI Avatar crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_AIAVATAR"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_FR_BOON_REVENANT_CREW_FIRST" blue="true">
+		<text>Present your Revenant crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_REVENANT_CREW"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_REVENANT_CREW_REPEAT" blue="false">
+		<text>Present your Revenant crew.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_REVENANT_CREW"/>
+	</choice>
+	
+<!--Insurrection + Selection!-->
+	<choice hidden="true" req="ACH_IPS_BOON_HOLO_FIRST" blue="true">
+		<text>Present a Low-Tech Hologram.</text>
+		<event load="IPS_JUDGE_REWARD_HOLO"/>
+	</choice>
+	<choice hidden="true" req="ACH_IPS_BOON_HOLO_REPEAT" blue="false">
+		<text>Present a Low-Tech Hologram.</text>
+		<event load="IPS_JUDGE_REWARD_HOLO"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_IPS_BOON_SONA_FIRST" blue="true">
+		<text>Present the lost explorer.</text>
+		<event load="IPS_JUDGE_REWARD_SONA"/>
+	</choice>
+	<choice hidden="true" req="ACH_IPS_BOON_SONA_REPEAT" blue="false">
+		<text>Present the lost explorer.</text>
+		<event load="IPS_JUDGE_REWARD_SONA"/>
+	</choice>
+	
+<!--Darkest Desire-->
+	<choice hidden="true" req="ACH_BOON_DEEPONE_FIRST" blue="true">
+		<text>Present your Deep One crew.</text>
+		<event load="DD_JUDGE_REWARD_DEEPONE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DEEPONE_REPEAT" blue="false">
+		<text>Present your Deep One crew.</text>
+		<event load="DD_JUDGE_REWARD_DEEPONE"/>
+	</choice>
+
+	<choice hidden="true">
+		<text>We have nothing to show.</text>
+		<event>
+			<text>"Really? You have brought... nothing? Pity. I had such... high hopes. This will not... do. Next time I advise... bringing something worth showing, yes?"</text>
+			<choice hidden="true">
+				<text>Continue.</text>
+				<event>
+					<loadEvent>THE_JUDGES_NORMAL</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+<mod:findName type="event" name="THE_JUDGES_ENGI_REAL">
+  <mod:removeTag/>
+</mod:findName>
+<event name="THE_JUDGES_ENGI_REAL">
+	<text>Corby jolts upright. "Corby has been: called upon - called upon! The [opportunity]... maximum percentage. Excitement can hardly be contained. Contained! But first - data must be presented. Exchange: data for grants."</text>
+	<!--systems-->
+	<choice hidden="true" req="ACH_BOON_WEAPONS_FIRST" blue="true">
+		<text>Present your Weapons system.</text>
+		<event load="JUDGE_AWARD_WEAPONS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_WEAPONS_REPEAT" blue="false">
+		<text>Present your Weapons system.</text>
+		<event load="JUDGE_AWARD_WEAPONS"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_SHIELDS_FIRST" blue="true">
+		<text>Present your Shields system.</text>
+		<event load="JUDGE_AWARD_SHIELDS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_SHIELDS_REPEAT" blue="false">
+		<text>Present your Shields system.</text>
+		<event load="JUDGE_AWARD_SHIELDS"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_ENGINES_FIRST" blue="true">
+		<text>Present your Engines system.</text>
+		<event load="JUDGE_AWARD_ENGINES"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_ENGINES_REPEAT" blue="false">
+		<text>Present your Engines system.</text>
+		<event load="JUDGE_AWARD_ENGINES"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_MEDBAY_FIRST" blue="true">
+		<text>Present your Medbay system.</text>
+		<event load="JUDGE_AWARD_MEDBAY"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_MEDBAY_REPEAT" blue="false">
+		<text>Present your Medbay system.</text>
+		<event load="JUDGE_AWARD_MEDBAY"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_CLONEBAY_FIRST" blue="true">
+		<text>Present your Clone Bay system.</text>
+		<event load="JUDGE_AWARD_CLONEBAY"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_CLONEBAY_REPEAT" blue="false">
+		<text>Present your Clone Bay system.</text>
+		<event load="JUDGE_AWARD_CLONEBAY"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_OXYGEN_FIRST" blue="true">
+		<text>Present your Oxygen system.</text>
+		<event load="JUDGE_AWARD_OXYGEN"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_OXYGEN_REPEAT" blue="false">
+		<text>Present your Oxygen system.</text>
+		<event load="JUDGE_AWARD_OXYGEN"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_TELEPORTER_FIRST" blue="true">
+		<text>Present your Teleporter system.</text>
+		<event load="JUDGE_AWARD_TELEPORTER"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_TELEPORTER_REPEAT" blue="false">
+		<text>Present your Teleporter system.</text>
+		<event load="JUDGE_AWARD_TELEPORTER"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_MIND_FIRST" blue="true">
+		<text>Present your Mind Control system.</text>
+		<event load="JUDGE_AWARD_MIND"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_MIND_REPEAT" blue="false">
+		<text>Present your Mind Control system.</text>
+		<event load="JUDGE_AWARD_MIND"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_HACKING_FIRST" blue="true">
+		<text>Present your Hacking system.</text>
+		<event load="JUDGE_AWARD_HACKING"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_HACKING_REPEAT" blue="false">
+		<text>Present your Hacking system.</text>
+		<event load="JUDGE_AWARD_HACKING"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_STEALTH_FIRST" blue="true">
+		<text>Present your Cloaking system.</text>
+		<event load="JUDGE_AWARD_STEALTH"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_STEALTH_REPEAT" blue="false">
+		<text>Present your Cloaking system.</text>
+		<event load="JUDGE_AWARD_STEALTH"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_TEMPORAL_FIRST" blue="true">
+		<text>Present your Temporal system.</text>
+		<event load="JUDGE_AWARD_TEMPORAL"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_TEMPORAL_REPEAT" blue="false">
+		<text>Present your Temporal system.</text>
+		<event load="JUDGE_AWARD_TEMPORAL"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_DRONES_FIRST" blue="true">
+		<text>Present your Drone Control system.</text>
+		<event load="JUDGE_AWARD_DRONES"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DRONES_REPEAT" blue="false">
+		<text>Present your Drone Control system.</text>
+		<event load="JUDGE_AWARD_DRONES"/>
+	</choice>
+
+	<!--subsystems-->
+	<choice hidden="true" req="ACH_BOON_SENSORS_FIRST" blue="true">
+		<text>Present your Sensors subsystem.</text>
+		<event load="JUDGE_AWARD_SENSORS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_SENSORS_REPEAT" blue="false">
+		<text>Present your Sensors subsystem.</text>
+		<event load="JUDGE_AWARD_SENSORS"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_DOORS_FIRST" blue="true">
+		<text>Present your Doors subsystem.</text>
+		<event load="JUDGE_AWARD_DOORS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DOORS_REPEAT" blue="false">
+		<text>Present your Doors subsystem.</text>
+		<event load="JUDGE_AWARD_DOORS"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_PILOT_FIRST" blue="true">
+		<text>Present your Piloting subsystem.</text>
+		<event load="JUDGE_AWARD_PILOT"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_PILOT_REPEAT" blue="false">
+		<text>Present your Piloting subsystem.</text>
+		<event load="JUDGE_AWARD_PILOT"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_BATTERY_FIRST" blue="true">
+		<text>Present your Battery subsystem.</text>
+		<event load="JUDGE_AWARD_BATTERY"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_BATTERY_REPEAT" blue="false">
+		<text>Present your Battery subsystem.</text>
+		<event load="JUDGE_AWARD_BATTERY"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_REACTOR_FIRST" blue="true">
+		<text>Present your reactor.</text>
+		<event load="JUDGE_AWARD_REACTOR"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_REACTOR_REPEAT" blue="false">
+		<text>Present your reactor.</text>
+		<event load="JUDGE_AWARD_REACTOR"/>
+	</choice>
+
+<!-- Forgemaster !-->
+	<choice hidden="true" req="ACH_BOON_FM_FORGEARMOR_FIRST" blue="true">
+		<text>Present the Modular Hull.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_FORGEARMOR"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_FM_FORGEARMOR_REPEAT" blue="false">
+		<text>Present the Modular Hull.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_FORGEARMOR"/>
+	</choice>
+	
+	<choice hidden="true">
+		<text>We have nothing to show.</text>
+		<event>
+			<text>"Nothing? Nothing?! That is [okay]! Corby understands. You will r-r-r-return, and bring me [better] tribute next time! I am: sure! Goodbye! Goodbye!"</text>
+			<choice hidden="true">
+				<text>Continue.</text>
+				<event>
+					<loadEvent>THE_JUDGES_NORMAL</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+<mod:findName type="event" name="THE_JUDGES_ROCKMAN_REAL">
+  <mod:removeTag/>
+</mod:findName>
+<event name="THE_JUDGES_ROCKMAN_REAL">
+	<text>Wakeson grunts and shrugs back his giant shoulders. "You seek my BLESSINGS? Then you must PROVE yourself first! Show me your ARSENAL, and I will show you WHAT I THINK! Do not FAIL me. I have little PATIENCE for you."</text>
+	<choice hidden="true" req="ACH_BOON_START_FIRST" blue="true">
+		<text>Present a basic weapon.</text>
+		<event load="JUDGE_AWARD_START"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_START_REPEAT" blue="false">
+		<text>Present a basic weapon.</text>
+		<event load="JUDGE_AWARD_START"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_KERNELS_FIRST" blue="true">
+		<text>Present an Elite Kernel weapon.</text>
+		<event load="JUDGE_AWARD_KERNELS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_KERNELS_REPEAT" blue="false">
+		<text>Present an Elite Kernel weapon.</text>
+		<event load="JUDGE_AWARD_KERNELS"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_KERNELS_SPORE_FIRST" blue="true">
+		<text>Present an Elite Spore weapon.</text>
+		<event load="JUDGE_AWARD_KERNELS_SPORE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_KERNELS_SPORE_REPEAT" blue="false">
+		<text>Present an Elite Spore weapon.</text>
+		<event load="JUDGE_AWARD_KERNELS_SPORE"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_CRYSELITE_FIRST" blue="true">
+		<text>Present an Elite Crystal weapon.</text>
+		<event load="JUDGE_AWARD_CRYSELITE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_CRYSELITE_REPEAT" blue="false">
+		<text>Present an Elite Crystal weapon.</text>
+		<event load="JUDGE_AWARD_CRYSELITE"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_MINELAUNCHER_FIRST" blue="true">
+		<text>Present a Mine Launcher.</text>
+		<event load="JUDGE_AWARD_MINELAUNCHER"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_MINELAUNCHER_REPEAT" blue="false">
+		<text>Present a Mine Launcher.</text>
+		<event load="JUDGE_AWARD_MINELAUNCHER"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_NEWGEN_FIRST" blue="true">
+		<text>Present New Gen tech.</text>
+		<event load="JUDGE_AWARD_NEWGEN"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_NEWGEN_REPEAT" blue="false">
+		<text>Present New Gen tech.</text>
+		<event load="JUDGE_AWARD_NEWGEN"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_AETHER_FIRST" blue="true">
+		<text>Present Aether tech.</text>
+		<event load="JUDGE_AWARD_AETHER"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_AETHER_REPEAT" blue="false">
+		<text>Present Aether tech.</text>
+		<event load="JUDGE_AWARD_AETHER"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_NEXUS_FIRST" blue="true">
+		<text>Present Nexus Loot.</text>
+		<event load="JUDGE_AWARD_NEXUS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_NEXUS_REPEAT" blue="false">
+		<text>Present Nexus Loot.</text>
+		<event load="JUDGE_AWARD_NEXUS"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_SPECIAL_FIRST" blue="true">
+		<text>Present Special Loot.</text>
+		<event load="JUDGE_AWARD_SPECIAL"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_SPECIAL_REPEAT" blue="false">
+		<text>Present Special Loot.</text>
+		<event load="JUDGE_AWARD_SPECIAL"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_TRANSPORT_FIRST" blue="true">
+		<text>Present Transport Loot.</text>
+		<event load="JUDGE_AWARD_TRANSPORT"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_TRANSPORT_REPEAT" blue="false">
+		<text>Present Transport Loot.</text>
+		<event load="JUDGE_AWARD_TRANSPORT"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_TRANSPORT_MATH_FIRST" blue="true">
+		<text>Present Math Loot.</text>
+		<event load="JUDGE_AWARD_TRANSPORT_MATH"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_TRANSPORT_MATH_REPEAT" blue="false">
+		<text>Present Math Loot.</text>
+		<event load="JUDGE_AWARD_TRANSPORT_MATH"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_RENEGADES_FIRST" blue="true">
+		<text>Present Renegade Loot.</text>
+		<event load="JUDGE_AWARD_RENEGADES"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_RENEGADES_REPEAT" blue="false">
+		<text>Present Renegade Loot.</text>
+		<event load="JUDGE_AWARD_RENEGADES"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_SENTRY_FIRST" blue="true">
+		<text>Present a Deployment Cannon.</text>
+		<event load="JUDGE_AWARD_SENTRY"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_SENTRY_REPEAT" blue="false">
+		<text>Present a Deployment Cannon.</text>
+		<event load="JUDGE_AWARD_SENTRY"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_CURA_FIRST" blue="true">
+		<text>Present Task Loot.</text>
+		<event load="JUDGE_AWARD_CURA"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_CURA_REPEAT" blue="false">
+		<text>Present Task Loot.</text>
+		<event load="JUDGE_AWARD_CURA"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_CLONECANNON_FIRST" blue="true">
+		<text>Present the Clone Cannon.</text>
+		<event load="JUDGE_AWARD_CLONECANNON"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_CLONECANNON_REPEAT" blue="false">
+		<text>Present the Clone Cannon.</text>
+		<event load="JUDGE_AWARD_CLONECANNON"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_MODULAR_FIRST" blue="true">
+		<text>Present a Modular Weapon.</text>
+		<event load="JUDGE_AWARD_MODULAR"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_MODULAR_REPEAT" blue="false">
+		<text>Present a Modular Weapon.</text>
+		<event load="JUDGE_AWARD_MODULAR"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_GATLING_FIRST" blue="true">
+		<text>Present the Gatling Gun.</text>
+		<event load="JUDGE_AWARD_GATLING"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_GATLING_REPEAT" blue="false">
+		<text>Present the Gatling Gun.</text>
+		<event load="JUDGE_AWARD_GATLING"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_NEXUS_RIFT_FIRST" blue="true">
+		<text>Present the Rift Waker.</text>
+		<event load="JUDGE_AWARD_NEXUS_RIFT"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_NEXUS_RIFT_REPEAT" blue="false">
+		<text>Present the Rift Waker.</text>
+		<event load="JUDGE_AWARD_NEXUS_RIFT"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_MADNESS_FIRST" blue="true">
+		<text>Present the 'Seuss' Beam.</text>
+		<event load="JUDGE_AWARD_MADNESS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_MADNESS_REPEAT" blue="false">
+		<text>Present the 'Seuss' Beam.</text>
+		<event load="JUDGE_AWARD_MADNESS"/>
+	</choice>
+
+<!-- Forgemaster !-->
+	<choice hidden="true" req="ACH_BOON_FM_FORGEWEAPON_FIRST" blue="true">
+		<text>Present a regular Forged Weapon.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_FORGEWEAPON"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_FM_FORGEWEAPON_REPEAT" blue="false">
+		<text>Present a regular Forged Weapon.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_FORGEWEAPON"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_FM_FORGEWEAPON_2_FIRST" blue="true">
+		<text>Present a Powerful Forged Weapon.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_FORGEWEAPON_2"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_FM_FORGEWEAPON_2_REPEAT" blue="false">
+		<text>Present a Powerful Forged Weapon.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_FORGEWEAPON_2"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_FM_ANCWEAPON_FIRST" blue="true">
+		<text>Present Ancagalon Tech.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_ANCWEAPON"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_FM_ANCWEAPON_REPEAT" blue="false">
+		<text>Present Ancagalon Tech.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_ANCWEAPON"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_BOON_FM_TERMINUS_FIRST" blue="true">
+		<text>Present the Terminus.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_TERMINUS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_FM_TERMINUS_REPEAT" blue="false">
+		<text>Present the Terminus.</text>
+		<event load="FORGEMASTER_JUDGE_REWARD_TERMINUS"/>
+	</choice>
+
+<!-- Forgotten Diamonds !-->
+
+	<choice hidden="true" req="ACH_FR_BOON_GOLDEN_FIRST" blue="true">
+		<text>Present a golden weapon.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_GOLDEN"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_GOLDEN_REPEAT" blue="false">
+		<text>Present a golden weapon.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_GOLDEN"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_FR_BOON_COPPER_FIRST" blue="true">
+		<text>Present a copper drone.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_COPPER"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_COPPER_REPEAT" blue="false">
+		<text>Present a copper drone.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_COPPER"/>
+	</choice>
+
+	<choice hidden="true" req="ACH_FR_BOON_ADAMANTINE_FIRST" blue="true">
+		<text>Present the Flesh Maker.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_ADAMANTINE"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_ADAMANTINE_REPEAT" blue="false">
+		<text>Present the Flesh Maker.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_ADAMANTINE"/>
+	</choice>
+	
+	
+<!--Forgotten Races!-->
+	<choice hidden="true" req="ACH_FR_BOON_ION_FIRST" blue="true">
+		<text>Present a commonwealth weapon or drone.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_ION"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_ION_REPEAT" blue="false">
+		<text>Present a commonwealth weapon or drone.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_ION"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_FR_BOON_SALT_GUN_FIRST" blue="true">
+		<text>Present a salt gun.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_SALT_GUN"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_SALT_GUN_REPEAT" blue="false">
+		<text>Present a salt gun.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_SALT_GUN"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_FR_BOON_HAUNT_GUN_FIRST" blue="true">
+		<text>Present a haunt gun.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_HAUNT_GUN"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_HAUNT_GUN_REPEAT" blue="false">
+		<text>Present a haunt gun.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_HAUNT_GUN"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_FR_BOON_REVENANT_GUN_FIRST" blue="true">
+		<text>Present a Revenant gun.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_REVENANT_GUN"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_REVENANT_GUN_REPEAT" blue="false">
+		<text>Present a Revenant gun.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_REVENANT_GUN"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_FR_BOON_WITHER_GUN_FIRST" blue="true">
+		<text>Present a prototype wither gun.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_WITHER_GUN"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_WITHER_GUN_REPEAT" blue="false">
+		<text>Present a prototype wither gun.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_WITHER_GUN"/>
+	</choice>
+	
+<!--Insurrection + Selection!-->
+	<choice hidden="true" req="ACH_IPS_BOON_TECH_FIRST" blue="true">
+		<text>Present tech from a distant cluster.</text>
+		<event load="IPS_JUDGE_REWARD_TECH"/>
+	</choice>
+	<choice hidden="true" req="ACH_IPS_BOON_TECH_REPEAT" blue="false">
+		<text>Present tech from a distant cluster.</text>
+		<event load="IPS_JUDGE_REWARD_TECH"/>
+	</choice>
+	
+<!--C&C Weapons Renegade!-->
+	<choice hidden="true" req="ACH_BOON_NUKE_FIRST" blue="true">
+		<text>Present the Nuclear Payload.</text>
+		<event load="CNC_JUDGE_REWARD_NUKE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_NUKE_REPEAT" blue="false">
+		<text>Present the Nuclear Payload.</text>
+		<event load="CNC_JUDGE_REWARD_NUKE"/>
+	</choice>
+	
+<!--Fishier than Light!-->
+	<choice hidden="true" req="ACH_BOON_FISH_FIRST" blue="true">
+        <text>Present a fish.</text>
+		<event load="FISH_JUDGE_REWARD_FISH"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_FISH_REPEAT" blue="false">
+        <text>Present a fish.</text>
+		<event load="FISH_JUDGE_REWARD_FISH"/>
+	</choice>
+	
+<!--Darkest Desire-->
+	<choice hidden="true" req="ACH_BOON_DEEPONE_EQUIPMENT_FIRST" blue="true">
+        <text>Present Deep One tech.</text>
+		<event load="DD_JUDGE_REWARD_DEEPONE_TECH"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DEEPONE_EQUIPMENT_REPEAT" blue="false">
+        <text>Present Deep One tech.</text>
+		<event load="DD_JUDGE_REWARD_DEEPONE_TECH"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_DISPARITY_EQUIPMENT_FIRST" blue="true">
+        <text>Present Disparity tech.</text>
+		<event load="DD_JUDGE_REWARD_DISPARITY_TECH"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DISPARITY_EQUIPMENT_REPEAT" blue="false">
+        <text>Present Disparity tech.</text>
+		<event load="DD_JUDGE_REWARD_DISPARITY_TECH"/>
+	</choice>
+
+	<choice hidden="true">
+		<text>We have nothing to show.</text>
+		<event>
+			<text>"You INSULT me! You INSULT the three of us! You are worthless, and you WASTE. MY. TIME. Out, OUT! BEGONE with you, traveler! Next time, bring me SOMETHING worth tribute!"</text>
+			<choice hidden="true">
+				<text>Continue.</text>
+				<event>
+					<loadEvent>THE_JUDGES_NORMAL</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
