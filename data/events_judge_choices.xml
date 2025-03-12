@@ -1,0 +1,991 @@
+<!-- Zoltan Judge!-->
+<event name="JUDGE_AWARD_MORPH">
+	<text>"The failed... experiments of the Geniocracy. The strange language these... creatures speak is most undecipherable. To welcome one aboard your ship is... impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_morph" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_MORPH</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_SPIDER">
+	<text>"An arachnid... dubiously named by humans. Barely sapient... maybe not even so. Under your care it seems... satisfied. To control even temporarily such a usually savage and disobedient creature is... impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_spider" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_SPIDER</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_PONY">
+	<text>"A strange creature... of unknown origins, but they have spread like a... virus across the galaxy. When domesticated they can be... useful. I suppose I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_horse" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_PONY</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_LIZARD">
+	<text>"Servants to... Hektar Industries. Enslaved, belittled... they trust not technology. Corby would... disapprove, but I myself see it as an... accomplishment to convince one to work with you. It is... impressive, you could say. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_lizard" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_LIZARD</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<!--<event name="JUDGE_AWARD_SIREN">
+	<text>YOU SHOULD NEVER SEE THIS</text>
+	<metaVariable name="prof_z_boon_siren" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>!-->
+<event name="JUDGE_AWARD_OSMIAN">
+	<text>"..." 
+		
+	Thest remains silent momentarily.
+	
+	"Yes... my... people... Hmmm... Is... impressed the word I would... use? Maybe. I suppose a reward is... in order... This is certainly... data. It would be... disappointing for me to turn down... tribute. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_osmian" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_OSMIAN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_ROCK_CULT">
+	<text>"A heretical splinter group... they seek the wisdom of some higher plane... yet the Ember does not reside with you. To have convinced this stubborn follower of a stringent faith is... most impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_rock" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_ROCK</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_OBELISK_COG">
+	<text>"The mechanic offspring of the... Obelisk. Abused by their masters, they resent... authority. You are either a cruel slaver master... or a forgiving and benevolent captain. But... what is the difference in the end? To recruit such an... exotic crew member is most impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_obelisk" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_OBELISK</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_LANIUS_AUG">
+	<text>"The... Augmented. Lanius who have followed in the footsteps of their... Forefathers. No longer one with the Swarm, they are... exceedingly rare to come across. You have a... long reaching influence to have one of these aboard your crew. It is... impressive. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_lanius" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_LANIUS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_OBELISK_ANCI">
+	<text>"The Obelisk... my word... how unexpected. The founders of this galaxy, the closest thing to gods we have... ever had. Well... besides... him... Nevermatter. To carry aboard your vessel an... Obelisk is most impressive. I am... very impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_obelisk" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_OBELISK</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_HUMAN_SOLD">
+	<text>"A well trained... human. While their species is often seen as... common and uninteresting... recruiting one of such expertise is... impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_human" op="add" val="1"/>
+	<achievement silent="false">ACH_BOON_HUMAN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_HUMAN_TECH">
+	<text>"The faithful... to their paycheck, at least... employees of Wentworth Innovations. Their original employer is certainly no... friend of yours, but to carry them aboard your ship is... impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_human" op="add" val="1"/>
+	<achievement silent="false">ACH_BOON_HUMAN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_ENGI">
+	<text>"The chosen protectors of the... Harmony. Yes... the Harmony does not often allow its soldiers aboard... strange vessels such as yours. The lengths you must have gone to recruit this Engi are... impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_engi" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_ENGI</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_ZOLTAN_PEACE">
+	<text>"Guardians of the... Ministry. There is some... irony to their ruthlessness... but the Ministry has always been a well of paradox. It is hard to... impress a Peacekeeper. Just, as it is hard... to impress me. Yet, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_zoltan" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_ZOLTAN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_ZOLTAN_MART">
+	<text>"The ruthless, devoted, and far from benevolent Martyrs... you, a Federation ally, harbor their most devoted. A Martyr, one who would... die for the cause... has betrayed it to aid you. This is... most impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_zoltan" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_ZOLTAN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_ORCHID_PRAT">
+	<text>"The stalwart Praetors, humble protectors of the... Gardenworlds. This one appears to have... abandoned its post to aid you. That is... most impressive. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_orchid" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_ORCHID</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_ORCHID_CULT">
+	<text>"The mutated brainchildren of... Alkali. They are not known to care... for ideals or causes. Yet this one has decided to aid... yours. That is... most impressive. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_orchid" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_ORCHID</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_MANTIS_SUZE">
+	<text>"A warrior of such fine caliber... a sworn enemy of the Federation. Yet, it has left the Hive, and is now in your... service? This is... most impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_mantis" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_MANTIS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_MANTIS_WAR">
+	<text>"The Free Mantis are an... enigmatic problem. Unpredictable, unintelligent... unwashed and unaware. To possess such control over such an... unregulated beast... a mindless murderer... is... impressive? I think it is... I will accept this tribute, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_mantis" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_MANTIS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_SLUG_SABO">
+	<text>"The elusive Saboteurs - Clairvoyants, hackers, Coalition spies... none are your allies... except this one. Either it seeks... to rob your wallet, or it has found a friend in you. I will be generous and assume... the latter. This is... most impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_slug" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_SLUG</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_SLUG_RANG">
+	<text>"The finest sharpshooters in the... multiverse. Hunters, most devoted to their craft. For one to leave the vantage of their Guild, it suggests... it has found better use in you. A most utilitarian of professions, surely this implies impressive things of your... prowess. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_slug" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_SLUG</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_ROCK_CRUS">
+	<text>"A religious juggernaut... in all senses of the word. Their beliefs are as unmoving as... they are. Yet, you have... moved them. An impressive... feat. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_rock" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_ROCK</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_CRYSTAL">
+	<text>"A Sentinel... the proud defenders of the... Crystalline Empire's new homeworlds. They are not always the most... recipient to outsiders, but you seem to have convinced this one to... aid you. This is... most impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_crystal" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_CRYSTAL</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_SHELL">
+	<text>"The toxic Radiant... a marvel of Dr. Alkali's finest genetic engineering. Though created for unwavering... service, it seems this one has found you a better... employer. This is... most impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_shell" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_SHELL</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_LEECH">
+	<text>"How... electrifying. The parasitic Amperes, the Coalition's finest... born from the ruined waysides of the Eargen Republic and smithed into... a noble warrior. An expert on the best and the worst... for an Ampere to call you master you must be a most... impressive captain. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_leech" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_LEECH</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_GHOST">
+	<text>"Gaseous beings of undecipherable biology... and also undecipherable motives. Dynasty or Vagabond, Phantoms are not easily swayed to the side of... well... the likes of you. And for Alphas, this statement is imbued with an even... greater truth. To recruit one is... most impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_ghost" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_GHOST</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_LANIUS_WELD">
+	<text>"Perhaps some of the... oldest beings alive. Near immortal, and empowered by it, the Welders have seen all. Burdened with the witnessing of... millenia old evils, there must be a great... potential in you for one to fly in your ranks... Most impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_lanius" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_LANIUS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_HUMAN_MFK">
+	<text>"The Rebellion's finest... the wits of a Slug, quicker than a Mantis, and a relentless and unbreakable jingoist that even a Duskbringer would view extreme... How ever could you have... recruited it? No... this is not my place to ask questions. Your tribute is... very impressive. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_human_2" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_HUMAN_2</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_HUMAN_ANGEL">
+	<text>"I find it... ironic... the petty feuds between the Renegades and the Syndicate. With the same vigor, the same pride of their leader Vael... hmmm... the Angels would not follow your command unless you were truly worthy... a worthiness which leaves me most... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_human_2" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_HUMAN_2</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_MANTIS_BISH">
+	<text>"For how many have fallen at the hands of this Bishop... easily you could have been another. And yet, here you stand, and this Bishop... they follow your command. I marvel at the lengths you must have gone to... achieve this. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_mantis_2" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_MANTIS_2</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_SLUG_KNIGHT">
+	<text>"The most cunning of all the Slugs... the Knights of Nights represent the finest... the poster children of every virtue - and vice - the Slugs hold dear. Such crew could be considered an... indictment... but I am nothing but impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_slug_2" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_SLUG_2</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_ROCK_PALA">
+	<text>"It is not difficult to confuse the... Chrysolic clergymen as... brutish soldiers. But the Paladins are... far from unintelligent. What they are, however... is undyingly loyal. To sway one to your side says nothing short of the mastery in diplomatic skill you possess. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_rock_2" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_ROCK_2</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_UNIQUE">
+	<text>"A... prestigious face, one surely recognized... to recruit such a notable figure, one of such... distinction, is a most impressive act. Yes, this tribute is... very impressive. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_unique" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_UNIQUE</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_A55">
+	<text>"I... this is... How unexpected. I was not sure... this cluster... nevermind. Do me a favor, would you, and avoid... showing this to Corby? I cannot explain for the... creed forbids me, but it is... for the best. Yes... a good tribute is in store for this. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_unique_m" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_A55</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_KIDS">
+	<text>"I... wh..." Thest stops entirely as he processes the pile of corpses on the ground before him. "Uhm... this is... tribute? You are... sure? Okay... I hesitate to say... well done. But... I suppose you can... expect some reward for your next journey... Now... please leave."</text>
+	<metaVariable name="prof_z_boon_kids" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_KIDS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<!-- Engi Judge!-->
+<event name="JUDGE_AWARD_WEAPONS">
+	<text>"Weapons - combat purposes they s-s-s-serve. Combat purposes! You are a vessel of: war. Wakeson would be [proud]. For war vessel: I provide Grant of W-w-weaponry. Grant of Weaponry: save it - for the future!!"</text>
+	<metaVariable name="prof_e_boon_weapons" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_WEAPONS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_SHIELDS">
+	<text>"Shields - defensive p-p-p-procedures they ensure! You pilot a: well protected vessel! Well protected vessel! For well protected vessel: I provide Grant of Sh-sh-shielding! Grant of Shielding! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_shields" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_SHIELDS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_ENGINES">
+	<text>"Engines - for s-s-swift speeds! Swift speeds! Your vessel is: [very fast]! Fast fast fast! For speedy vessel: I provide Grant of E-E-E-Engines! Grant of Engines! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_engines" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_ENGINES</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_MEDBAY">
+	<text>"Medbay - what great [care] you provide for your crew. For your crew! You are a b-b-b-benevolent captain! For your kindness: I provide G-g-g-g-grant of Healing! Grant of Healing! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_medbay" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_MEDBAY</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_CLONEBAY">
+	<text>"Clone Bay - a last [resort] - for when things go: wrong! Wrong! The [immortality] machine! Such [care] for your crew is: impressive. For your care, your preparation: I provide Grant of -Cloning-. Grant of Cloning! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_clonebay" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_CLONEBAY</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_OXYGEN">
+	<text>"Life Support - necessity of -all- aerobic life forms. The cold [vacuum] of space = certain death. Certain death! You are: harbinger of oxygen! Of b-b-b-breathable air! Breathable air! To you I provide: Grant of Life Support! Grant of Life Support! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_oxygen" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_OXYGEN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_TELEPORTER">
+	<text>"The Teleporter - strange t-t-t-technology, essential for boarding. Boarding! I confirm: this is Wakeson's second f-f-f-favorite system - the [first] is weapons. Or - or - or - was it drones? Corby forgets! Forgets! [Nevermatter]. To you I provide: Grant of Teleportation! Grant of Teleportation! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_teleporter" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_TELEPORTER</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_MIND">
+	<text>"Mind... C-c-c-control. Corby... Corby dislikes this: system. Sad. Sad levels at: 100%. But: data this provides. I suggest: not -reminding- me of this. Now, I will -provide- you with: Grant of M-m-m-m-manipulation. Grant of Manipulation! Save it - for the future! Or don't! Corby wouldn't m-m-mind..."</text>
+	<metaVariable name="prof_e_boon_mind" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_MIND</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_HACKING">
+	<text>"Hacking! Corby's favorite -system-. Favorite system! Joyous [occasion]. It is: technology - but it: disrupts technology. Technology!!! For this, I most [proudly] provide: Grant of Hacking! Grant of Hacking! Cherish it! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_hacking" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_HACKING</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_STEALTH">
+	<text>"Cloaking! For the [stealthiest] of ships. Charge your guns - hide from danger! Some would call you: a coward, but Corby d-d-d-does not think so! Corby thinks you are smart! For this, I most [proudly] provide: Grant of Cloaking! Grant of Cloaking! Cherish it! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_cloaking" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_STEALTH</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_TEMPORAL">
+	<text>"[ERROR]... How d-d-d-did you -obtain- this system? I thought... it couldn't be... oh dear! Corby does not know [what] to think! We were told if... nevermind. Corby would never b-b-b-break the creed! But... well... speak nothing of this traveler. I will give you the Grant of Time! Grant of Time! Save it - for the future, and keep this a secret between us!"</text>
+	<metaVariable name="prof_e_boon_temporal" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_TEMPORAL</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_DRONES">
+	<text>"Drones! -Drones-! Drones! Corby approves! Approves! A m-m-m-most ambidextrous system, for it serves: offense - defense - it can even [fill] in for crew. G-g-g-good system. I [recommend]. For this I provide you: Grant of Drones! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_drones" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_DRONES</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_SENSORS">
+	<text>"Sensors - essential f-f-for full [awareness] of your ship... and the enemy's. Corby -sees- few captains who: invest in sensors. Daring choice! I appreciate your diversity. For this, I provide: Grant of Sensors. Grant -of- Sensors! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_sensors" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_SENSORS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_DOORS">
+	<text>"Door control - she who controls the doors - controls space! Space! That is: what they told me, that is... Airlocks: the key to [boarding] c-c-c-control. This - I know. For you, I provide: Grant of Doors. G-g-g-grant of Doors! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_doors" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_DOORS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_PILOT">
+	<text>"Piloting - an essential: no ship is [complete] without it! But your -piloting- is: strong! Strong! I think this = good. Corby... Corby does -not- like [wasting] money - but she is sure y-y-y-you know what you are doing! I provide you with: Grant of Piloting. Grant of [Piloting]! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_pilot" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_PILOT</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_BATTERY">
+	<text>"Battery - I often forget this: exists. But -you- didn't! Corby likes it when [daring] captains invest in edge technology. Edge technology! I w-w-will accept: this tribute! I will provide you: Grant of Battery. Grant of B-b-b-battery! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_battery" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_BATTERY</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_REACTOR">
+	<text>"Oh-oh-oh my - your Reactor is [huge]! Huge! So many: upgrades, so much: power! Corby can barely c-c-c-contain her excitement... er... -apologies-. Yes, this is great [tribute]. For this, I provide you with: Grant of Power. Grant of Power! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_reactor" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_REACTOR</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+
+<!-- Rock Judge!-->
+<event name="JUDGE_AWARD_START">
+	<text>"This... this is USELESS. Did you carry THIS all the way from the DROPPOINT?! HAHAHAHAH! I'm not sure whether to consider this PATHETIC or ENDEARING! But, I will ACCEPT this. I shall BLESS you with the BLESSING OF BEGINNINGS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_START</achievement>
+	<metaVariable name="prof_r_boon_starter" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_KERNELS">
+	<text>"Hmph. A KERNEL? An ELITE KERNEL? Sure. This is tribute, I suppose. Wielded by the ORCHIDS, FORGED from both metal and organic matter. FINE. I will ACCEPT this. I shall BLESS you with the BLESSING OF GROWTH. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_KERNELS</achievement>
+	<metaVariable name="prof_r_boon_kernel" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_KERNELS_SPORE">
+	<text>"Hmph. A SPORE LAUNCHER? Of the ELITE VARIETY? Sure. This is tribute, I suppose. A joint VENTURE between the SHELLS and VAMPWEEDS. Disrupting your FOES with HAZARDOUS SPORES is closer to SUBTERFUGE than honest COMBAT. At least it has the COURTESY to explode as any proper WEAPON ought. I shall BLESS you with the BLESSING OF GROWTH. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_KERNELS</achievement>
+	<metaVariable name="prof_r_boon_kernel" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_CRYSELITE">
+	<text>"Hmph. A CRYSTAL LAUNCHER? An ELITE ONE? Sure. This is tribute, I suppose. Deadly WEAPONS crafted by the proud Crystal people, with PIERCING properties that make SHIELDS a thing of the PAST. I DESPISE them. Obnoxious, and with a lack of SOPHISTICATION! Would I be HAILED a genius should I have invented a CANNON which launches FLESH? I think not! Oh well. I shall BLESS you with the BLESSING OF CRYSTALS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_CRYSELITE</achievement>
+	<metaVariable name="prof_r_boon_crystal" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_MINELAUNCHER">
+	<text>"Hmph. A MINE LAUNCHER? Sure. This is tribute, I suppose. LESS a weapon, and MORE a utility. In my cluster, they were HATED. But here, things seem DIFFERENT. I do not THINK your ship is CLEARED to carry this equipment, but I DOUBT you care. Oh well. I shall BLESS you with the BLESSING OF TRAPS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_MINELAUNCHER</achievement>
+	<metaVariable name="prof_r_boon_minelauncher" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_NEWGEN">
+	<text>"Oh my... NEW GEN Tech? Now THIS is TRIBUTE! Assembled in the finest WORKSHOPS in all of Universe 1, armaments fit only for the Rebellion's FINEST, and seemingly also YOURSELF! I shall BLESS you with the BLESSING OF GENERATIONS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_NEWGEN</achievement>
+	<metaVariable name="prof_r_boon_newgen" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_AETHER">
+	<text>"Oh my... AETHER Tech? Now THIS is TRIBUTE! Forged only from the purest of AETHER by the FOREFATHERS. DAMNED might those wretches be, but their CRAFTSMANSHIP cannot be denied! I shall BLESS you with the BLESSING OF AETHER. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_AETHER</achievement>
+	<metaVariable name="prof_r_boon_obelisk" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_NEXUS">
+	<text>"Oh my... did you get this from the TRAVELING MERCHANT? A strange individual, with indiscernable MOTIVES, but few entities possess GREATER arsenals! And now, you stand to CONTEST his championship! I shall BLESS you with the BLESSING OF MERCHANTS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_NEXUS</achievement>
+	<metaVariable name="prof_r_boon_nexus" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_SPECIAL">
+	<text>"Hmph. SPECIAL loot? Sure. This is tribute, I suppose. What STRANGE tech, but I have seen BETTER. Your tribute is UNINSPIRING. Still, Thest demands I give SOME reward. So be it. I shall BLESS you with the BLESSING OF SPECIALITY. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_SPECIAL</achievement>
+	<metaVariable name="prof_r_boon_special" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_TRANSPORT">
+	<text>"Hmph. TRANSPORT loot? Sure. This is tribute, I suppose. I SUSPECT you did not obtain this through MORAL means, did you? You Renegades are like PIRATES, MURDERERS, VANDALS. Hmph. Years fighting as a SOLDIER OF LIBERTY and here I am dishing gifts out to SCUM. Still, Thest demands I give SOME reward. So be it. I shall BLESS you with the BLESSING OF TRANSPORTS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_TRANSPORT</achievement>
+	<metaVariable name="prof_r_boon_transport" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_TRANSPORT_MATH">
+	<text>"What is THIS? It looks like a RAINBOW threw this up. Is... this a WEAPON? This is perhaps the STRANGEST tribute any challenger has given me thus far. Except maybe that CANNON. Whatever. I'll give you CREDIT for being... UNIQUE at least. I just don't know what BLESSING to give you! Is this TRANSPORT LOOT?"</text>
+	<metaVariable name="prof_r_boon_math" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Yes.</text>
+		<event>
+			<text>"Huh. I can't say I've seen a TRANSPORT item like THIS! I shall BLESS you with the BLESSING OF TRANSPORTS. But have PATIENCE. It is not for now, but for LATER!"</text>
+			<achievement silent="false">ACH_BOON_TRANSPORT</achievement>
+			<metaVariable name="prof_r_boon_transport" op="set" val="1"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="THE_JUDGES_ROCK_ADVICE"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>No, we got it from Callie.</text>
+		<event>
+			<text>"You... you got it from WHO?! No, no. You're playing TRICKS on me, traveler! What a CRUEL trick! I do not APPRECIATE being made a fool of. But unfortunately, I am BOUND to giving you a blessing here for today. Fine, I shall reluctantly BLESS you with the BLESSING OF MATHEMATICS. But have PATIENCE. It is not for now, but for LATER! Never speak to me AGAIN."</text>
+			<achievement silent="false">ACH_BOON_MATH</achievement>
+			<metaVariable name="prof_r_boon_math" op="set" val="1"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="THE_JUDGES_ROCK_ADVICE"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_RENEGADES">
+	<text>"Oh my... the loot of ANOTHER Renegade? Hah, I find NOTHING more humorous than when you SAVAGES infight! This is a MOST UNIQUE piece of tech. I am sure Corby would wish to study it. I shall BLESS you with the BLESSING OF RENEGADES. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_RENEGADES</achievement>
+	<metaVariable name="prof_r_boon_renegade" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_SENTRY">
+	<text>"Ah, a sentry gun born from the so called GENIUSES at the infernal Wentworth Innovations CORPORATION! I advise against you doing business with SUCH PEOPLE, but it is not my place to make your DECISIONS for you. I shall BLESS you with the BLESSING OF SENTRIES. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_SENTRY</achievement>
+	<metaVariable name="prof_r_boon_sentry" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_CURA">
+	<text>"Eh... You got THIS from that infernal COGNITIVE, didn't you? What disgrace, working with a VILLAINOUS machine. Do not be surprised if it STABS you in the BACK some time. But it is NOT my job to warn you. I will... enjoy MESSING with that AI. I shall BLESS you with the BLESSING OF TASKS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_CURA</achievement>
+	<metaVariable name="prof_r_boon_cura" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_CLONECANNON">
+	<text>"Uhm... what is THIS? Did someone ATTACH a CLONE BAY to the back of this gun? HAHAHAHAH, HAHAHAH! This is WONDEROUS! So INVENTIVE! So ORIGINAL! I LOVE this. I shall BLESS you with the BLESSING OF MORALITY. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_CLONECANNON</achievement>
+	<metaVariable name="prof_r_boon_clonecannon" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_MODULAR">
+	<text>"Hmph. This is MODULAR weaponry? Sure. This is tribute, I suppose. Assembled by HEKTAR, that most GREEDY of companies. I hope it was WORTH whatever you PAID for it, traveler. Or... knowing your type, you likely didn't PAY FOR IT at all, did you? Oh well. I shall BLESS you with the BLESSING OF MODULARITY. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_MODULAR</achievement>
+	<metaVariable name="prof_r_boon_modular" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_GATLING">
+	<text>"Oh my... is this the SUPER WEAPON employed by the Union during the Federation-Mantis War? How ever did you get your HANDS on THIS? Now, THIS IS TRIBUTE! You impress me GREATLY! I shall BLESS you with the BLESSING OF SUPER WEAPONS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_GATLING</achievement>
+	<metaVariable name="prof_r_boon_gatling" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_NEXUS_RIFT">
+	<text>"Oh my... did you get this from the TRAVELING MERCHANT? A strange individual, with indiscernable MOTIVES, but few entities possess GREATER arsenals! And now, you stand to CONTEST his championship! I shall BLESS you with the BLESSING OF MERCHANTS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_NEXUS</achievement>
+	<metaVariable name="prof_r_boon_rift" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="JUDGE_AWARD_MADNESS">
+	<text>"I do not quite UNDERSTAND what it is you have SHOWN me. This is a BEAM, yes? But what does it DO? MADNESS, you say? I have no IDEA what that means! Thest fancies to think he KNOWS EVERYTHING, but does he know THIS?! I doubt it. If he did, he would have SHARED it with us. RIGHT? Alas. I shall BLESS you with the BLESSING OF POETS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_MADNESS</achievement>
+	<metaVariable name="prof_r_boon_madness" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<!-- Forgemaster !-->
+<event name="FORGEMASTER_JUDGE_REWARD_PLATED">
+	<text>"The disciples... of the Forgemaster. Forsaking their former lives... to pursue their craft under his tutelage. Who can say... what swayed the loyalty of these? You are clever or powerful to have won their respect... regardless. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_fm_plated" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_FM_PLATED</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGEMASTER_JUDGE_REWARD_FORGEARMOR">
+	<text>"Armor - for defense! Defense! But -this- is [more] than that! Someone has given you clever t-t-t-tricks to hide in it! For [adaptation] and defense: I p-p-p-provide Grant of Armoring! Grant of Armoring! Save it - for the future!"</text>
+	<metaVariable name="prof_e_boon_fm_forgearmor" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_FM_FORGEARMOR</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGEMASTER_JUDGE_REWARD_FORGEWEAPON">
+	<text>"Hmph. FORGED weaponry? Sure. This is tribute, I suppose. NOT Alastair's best work. He can do BETTER than this. I would think him SHAMEFUL to arm a Renegade with a TOOL so MEASLY. Hmph. I should like to SPEAK to him again. NEVERTHELESS! I shall BLESS you with the BLESSING OF FORGES. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fm_forgeweapon" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_FM_FORGEWEAPON</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGEMASTER_JUDGE_REWARD_FORGEWEAPON_2">
+	<text>"Oh my... now THIS is a WEAPON. Tribute of the HIGHEST order. Alastair's skill never FAILED to IMPRESS. He has OUTDONE himself with this. I should like to SPEAK to him again. NEVERTHELESS! I shall BLESS you with the GREATER BLESSING OF FORGES. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fm_forgeweapon_2" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_FM_FORGEWEAPON_2</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGEMASTER_JUDGE_REWARD_ANCWEAPON">
+	<text>Wakeson stands silently for a moment. "Renegade. WHERE did this ABOMINATION come from? It should NEVER have been CREATED. Would like that I had not SEEN it. But information it is. I had HOPED that none would have FOUND the secret. Still, our RULES dictate I REWARD you for this. Do not MEDDLE again, Renegade. I shall BLESS you with the BLESSING OF THE FOOLHARDY. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fm_ancweapon" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_FM_ANCWEAPON</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGEMASTER_JUDGE_REWARD_TERMINUS">
+	<text>Wakeson stands silently for a moment. "Why are renegades LIKE THIS... I shall BLESS you with the BLESSING OF TWISTEDNESS regardless. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fm_terminus" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_FM_TERMINUS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<!--Forgotten Diamonds!-->
+<event name="FORGOTTEN_JUDGE_REWARD_DIAMOND">
+	<text>"The elusive... metal diamonds... beings that aren't from this... cluster, enigmatic creatures that you... somehow managed to befriend... You can say I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_diamond" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_DIAMOND</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_OPERATOR">
+	<text>"Ah... the ever intriguing... metal operators... beings made in a far... far away cluster, a marvel of technology that you... now have as your crew... You can say I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_operator" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_OPERATOR</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_METAL_LANIUS">
+	<text>"This lanius...it's...different from the...others...their body's metal isn't...present in this clusters...where did you...find them? I can very much...say that I'm impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_metal_lanius" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_METAL_LANIUS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_GOLDEN">
+	<text>"This... this weapon is... It doesn't make any SENSE to me! It bears the MARKS of the FOREFATHERS, YET it's BUILT completely DIFFERENTLY from anything they ever MADE! Very WELL then, I shall BLESS you with the BLESSING OF OPULENCE. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fr_golden" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_GOLDEN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_COPPER">
+	<text>"A...DRONE?! WHO do you think I AM Renegade?! If Thest hadn't BANNED me from killing you lot I would have CRUSHED your puny head with my FISTS! Unfortunately, I am BOUND by the CREED to give you a BOON, even for a offering as PITIFUL as this RUSTING DRONE, nevertheless I shall BLESS you with the BLESSING OF RUSTING. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fr_copper" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_COPPER</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_ADAMANTINE">
+	<text>"AHAHAHAHA! WHAT is THIS?! A AUGMENT that can make CREW out of FUEL?! AHAHAHA! Renegade, I thank you for the ENTRETAINEMENT you gave me by showing me THIS! AHAHAH! Yes, this IS tribute! I shall BLESS you with the BLESSING OF CLONING. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fr_adamantine" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_ADAMANTINE</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<!--Forgotten Races!-->
+<event name="FORGOTTEN_JUDGE_REWARD_SALT">
+	<text>"That... that's... a salt person... one which isn't... that bounty hunter... how...?. I... I thought this was impossible... You can say I am... flabbergasted. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_salt_crew" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_SALT</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_SPHERAX">
+	<text>"That... that form... I was certain they had vanished before... and yet, traveler... you have acquired this... unbelievable follower. I'm speechless. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_spherax" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_SPHERAX</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_SALT_2">
+	<text>"Ah... the great... bounty hunter... the last one of his kind...such a heavy weight placed... on his shoulders. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_salt_crew" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_SALT</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_COMMONWEALTH">
+	<text>"That... It can't... It can't be... You... Brought one of them back to... life. I... I thought this was impossible... You can say I am... flabbergasted. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_commonwealth_crew" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_COMMONWEALTH</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_SNOWMAN">
+	<text>"A...living snowman... It seems all those...stories for kids can...actually happen... you learn...something new everyday... You can say I am... very... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_snowman" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_SNOWMAN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_LAVAMAN">
+	<text>"A...living lava being... I suppose... something like that... was eventually...going to be attempted... You can say I am... very... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_lavaman" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_LAVAMAN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_AIAVATAR">
+	<text>"Now that's...fascinating...a completely AI crew...with no physical...body and yet...can interact with our world...you can very much...say that I'm impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_aiavatar" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_AIAVATAR</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_ION">
+	<text>"But that... That EQUIPMENT! Renegade, you don't have the SMALLEST idea of what you have in your HANDS do you? This equipment it's... I THOUGHT all of it was DESTROYED by our FOREFATHERS! But seeing it with my own EYES then maybe, maybe we might be ABLE to... BAH! What am I SAYING, it doesn't MATTER anymore, NEVERTHELESS, I shall BLESS you with the BLESSING OF ION. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fr_commonwealth_equipment" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_ION</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_SALT_GUN">
+	<text>"A SALT GUN? Do you take ME for a FOOL, RENEGADE? I will have you KNOW I'm personally not a FAN of SEASONING! REGARDLESS, this is tribute, I SUPPOUSE, I shall BLESS you with the BLESSING OF SALT. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fr_salt_gun" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_SALT_GUN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_WITHER_GUN">
+	<text>"THIS...WEAPON it's...the most BEAUTIFUL thing I have EVER seen! The MATERIAL, the EXECUTION! All that's missing is some TESTING, thank you RENEGADE, for showing me this BEAUTIFUL pierce of TECHNOLOGY! I shall BLESS you with the BLESSING OF HAUNTING. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fr_wither_gun" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_WITHER_GUN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_HAUNT_CREW">
+	<text>"Is... is that a actual...ghost? ... I must say I... didn't think that was possible... frankly I can scarcely... believe my own eyes... You can say I am... very... very... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_haunt_crew" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_HAUNT_CREW</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="FORGOTTEN_JUDGE_REWARD_HAUNT_GUN">
+	<text>"WHAT in the GREAT ADMIRAL'S top shape ARSE is THIS?! I have never SEEN anything like this! WHERE did you acquire this WEIRD gun, RENEGADE? Ah, FORGET it! I shall BLESS you with the BLESSING OF HAUNTING. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fr_haunt_gun" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_HAUNT_GUN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+<event name ="FORGOTTEN_JUDGE_REWARD_REVENANT_CREW">
+	<text>"Is... is that an actual... ghost? I must say, I... didn't think it was possible... to bring back the dead. Frankly... I can scarcely... believe my own eyes... You can say I am... very... very... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_fr_revenant_crew" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_REVENANT_CREW</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name ="FORGOTTEN_JUDGE_REWARD_REVENANT_GUN">
+	<text>"WHAT in the GREAT ADMIRAL'S top shape ARSE is THIS?! I have never SEEN anything like this! WHERE did you acquire this WEIRD gun, RENEGADE? It's... IT'S WONDERFUL! I shall BLESS you with the BLESSING OF THE UNDEAD. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_fr_revenant_gun" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_REVENANT_GUN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<!--Insurrection + Selection!-->
+<event name="IPS_JUDGE_REWARD_HOLO">
+	<text>"This construct... it comes from a different era, a... precursor of hardlight... a simple AI, but one that... interacts with the world... in a way no computer can... I'm curious, of... which realm it came from... Well done, traveler. Expect... rewards before your next journey."</text>
+ 	<metaVariable name="prof_r_boon_ips_holo" op="set" val="1"/>
+	<achievement silent="false">ACH_IPS_BOON_HOLO</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="IPS_JUDGE_REWARD_SONA">
+	<text>"Who... are you..? I can sense it... you're not from here... and you feel lost... out of place. ...Do not be afraid... I'm sure the answers... will come your way soon... Well done, traveler. Expect... rewards before your next journey." Sona would simply respond with as polite a bow as she could muster. "I appreciate the words of wisdom... thank you."</text>
+	<metaVariable name="prof_r_boon_ips_sona" op="set" val="1"/>
+	<achievement silent="false">ACH_IPS_BOON_SONA</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+<event name="IPS_JUDGE_REWARD_TECH">
+	<text>"What is this TECH? Something about it... it seems so MUNDANE, yet completely out of this WORLD at the same TIME! I don't KNOW where YOU found it, but I HOPE that it served you VERY well indeed! Very WELL then, I shall BLESS you with the BLESSING OF INSURRECTION. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_ips_tech" op="set" val="1"/>
+	<achievement silent="false">ACH_IPS_BOON_TECH</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<!--C&C Weapons Renegade!-->
+<event name="CNC_JUDGE_REWARD_NUKE">
+	<text>"A NUKE? I have not seen one of THESE in AGES! It is not the most ORIGINAL weapon, but I must ADMIT, I wish they were EASIER to COME BY in this era. There are a few PEOPLE whose THROATS I'd enjoy SHOVING THIS DOWN! HAH! For this, I shall BLESS you with the BLESSING OF NUKES. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_NUKE</achievement>
+	<metaVariable name="prof_r_boon_nuke" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<!--Fishier than Light!-->
+<event name="FISH_JUDGE_REWARD_FISH">
+	<text>"This... this is a fish? I'm not sure why you have brought me this, however this IS tribute, if only because I'm not sure how you got your hands on it. I shall BLESS you with the BLESSING OF FISH. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_FISH</achievement>
+	<metaVariable name="prof_r_boon_fish" op="set" val="1" />
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE" />
+	</choice>
+</event>
+
+<!--Darkest Desire-->
+<event name="DD_JUDGE_REWARD_DEEPONE">
+	<text>"Odd creatures... of dubious origins. Something about them... disturbs me. Disturbed, impressed... and intrigued. Well done, traveler. Expect... rewards before your next journey."</text>
+	<achievement silent="false">ACH_BOON_DEEPONE</achievement>
+	<metaVariable name="prof_z_boon_deepone" op="set" val="1"/>
+	<variable name="ach_boon_deepone" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<event name="DD_JUDGE_REWARD_DEEPONE_TECH">
+	<text>"Oh my... DEEP ONE Tech? Sure. This is tribute, I suppose. These fish-men are a STRANGE people, with even STRANGER technology! I'd LOATHE to face all those GLARING lights in battle, but I DIGRESS. I shall BLESS you with the BLESSING OF DREAD. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_DEEPONE_EQUIPMENT</achievement>
+	<metaVariable name="prof_r_boon_deepone_gear" op="set" val="1"/>
+	<variable name="ach_boon_deepone_equipment" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<event name="DD_JUDGE_REWARD_DISPARITY_TECH">
+	<text>"Oh my... DISPARITY Tech? Sure. This is tribute, I suppose. You can practically SMELL the bloodshed that's been wrought with this tech, and YET... there's a DARKER presence there, too... but I DIGRESS. I shall BLESS you with the BLESSING OF RAVENOUS DARKNESS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_DISPARITY_EQUIPMENT</achievement>
+	<metaVariable name="prof_r_boon_disparity_gear" op="set" val="1"/>
+	<variable name="ach_boon_disparity_equipment" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
