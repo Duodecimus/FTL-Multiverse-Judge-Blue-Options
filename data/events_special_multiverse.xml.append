@@ -470,6 +470,91 @@
 		<text>Present your Deep One crew.</text>
 		<event load="DD_JUDGE_REWARD_DEEPONE"/>
 	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_DDSOULPLAGUE_CREW_FIRST" blue="true">
+		<text>Present your Soulplague-aligned crew.</text>
+		<event load="DD_JUDGE_REWARD_DDSOULPLAGUE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DDSOULPLAGUE_CREW_REPEAT" blue="false">
+		<text>Present your Soulplague-aligned crew.</text>
+		<event load="DD_JUDGE_REWARD_DDSOULPLAGUE"/>
+	</choice>
+	
+<!--The Outer Expansion-->
+	
+	<choice hidden="true" req="ACH_BOON_AEA_ACID_FIRST" blue="true">
+		<text>Present an Elite Acidic Crew.</text>
+		<event load="OE_JUDGE_REWARD_ACID"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_AEA_ACID_REPEAT" blue="false">
+		<text>Present an Elite Acidic Crew.</text>
+		<event load="OE_JUDGE_REWARD_ACID"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_AEA_BIRD_FIRST" blue="true">
+		<text>Present an Elite Gi Crew.</text>
+		<event load="OE_JUDGE_REWARD_BIRD"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_AEA_BIRD_REPEAT" blue="false">
+		<text>Present an Elite Gi Crew.</text>
+		<event load="OE_JUDGE_REWARD_BIRD"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_AEA_CULT_FIRST" blue="true">
+		<text>Present an Elite Cultist Crew.</text>
+		<event load="OE_JUDGE_REWARD_CULT"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_AEA_CULT_REPEAT" blue="false">
+		<text>Present an Elite Cultist Crew.</text>
+		<event load="OE_JUDGE_REWARD_CULT"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_AEA_SHLEG_FIRST" blue="true">
+		<text>Present an Elite Anarchist Crew.</text>
+		<event load="OE_JUDGE_REWARD_SHLEG"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_AEA_SHLEG_REPEAT" blue="false">
+		<text>Present an Elite Anarchist Crew.</text>
+		<event load="OE_JUDGE_REWARD_SHLEG"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_AEA_SHARD_FIRST" blue="true">
+		<text>Present an Elite Shard-Forged Crew.</text>
+		<event load="OE_JUDGE_REWARD_SHARD"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_AEA_SHARD_REPEAT" blue="false">
+		<text>Present an Elite Shard-Forged Crew.</text>
+		<event load="OE_JUDGE_REWARD_SHARD"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_AEA_JUSTICE_FIRST" blue="true">
+		<text>Present the Dark Justicier.</text>
+		<event load="OE_JUDGE_REWARD_JUSTICE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_AEA_JUSTICE_REPEAT" blue="false">
+		<text>Present the Dark Justicier.</text>
+		<event load="OE_JUDGE_REWARD_JUSTICE"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_AEA_OLD_FIRST" blue="true">
+		<text>Present a Lylmik Crew.</text>
+		<event load="OE_JUDGE_REWARD_OLD"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_AEA_OLD_REPEAT" blue="false">
+		<text>Present a Lylmik Crew.</text>
+		<event load="OE_JUDGE_REWARD_OLD"/>
+	</choice>
+
+<!--  Arс seems to have forgotten to add that choice to the OE. I made it myself
+
+	<choice hidden="true" req="ACH_BOON_AEA_NECRO_FIRST" blue="true">
+		<text>Present a ACH_BOON_AEA_NECRO Crew.</text>
+		<event load="OE_JUDGE_REWARD_OLD"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_AEA_NECRO_REPEAT" blue="false">
+		<text>Present a ACH_BOON_AEA_NECRO Crew.</text>
+		<event load="OE_JUDGE_REWARD_OLD"/>
+	</choice> -->
 
 	<choice hidden="true">
 		<text>We have nothing to show.</text>
@@ -484,6 +569,7 @@
 		</event>
 	</choice>
 </event>
+
 <mod:findName type="event" name="THE_JUDGES_ENGI_REAL">
   <mod:removeTag/>
 </mod:findName>
@@ -652,6 +738,37 @@
 	<choice hidden="true" req="ACH_BOON_FM_FORGEARMOR_REPEAT" blue="false">
 		<text>Present the Modular Hull.</text>
 		<event load="FORGEMASTER_JUDGE_REWARD_FORGEARMOR"/>
+	</choice>
+	
+<!--Darkest Desire-->
+
+	<choice hidden="true" req="ACH_BOON_DDCORRUPTOR_FIRST" blue="true">
+		<text>Present your Corruptor system.</text>
+		<event load="DD_JUDGE_REWARD_DDCORRUPTOR"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DDCORRUPTOR_REPEAT" blue="false">
+		<text>Present your Corruptor system.</text>
+		<event load="DD_JUDGE_REWARD_DDCORRUPTOR"/>
+	</choice>
+	
+<!--The Outer Expansion-->
+	
+	<choice hidden="true" req="ACH_BOON_AEA_SUPER_SHIELDS_FIRST" blue="true">
+		<text>Present your Auxiliary Shields system.</text>
+		<event load="OE_JUDGE_REWARD_SUPER_SHIELDS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_AEA_SUPER_SHIELDS_REPEAT" blue="false">
+		<text>Present your Auxiliary Shields system.</text>
+		<event load="OE_JUDGE_REWARD_SUPER_SHIELDS"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_AEA_CLONE_CRIME_FIRST" blue="true">
+		<text>Present your Illegally Modified Clonebay system.</text>
+		<event load="OE_JUDGE_REWARD_CLONE_CRIME"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_AEA_CLONE_CRIME_REPEAT" blue="false">
+		<text>Present your Illegally Modified Clonebay system.</text>
+		<event load="OE_JUDGE_REWARD_CLONE_CRIME"/>
 	</choice>
 	
 	<choice hidden="true">
@@ -1004,7 +1121,16 @@
         <text>Present Disparity tech.</text>
 		<event load="DD_JUDGE_REWARD_DISPARITY_TECH"/>
 	</choice>
-
+	
+	<choice hidden="true" req="ACH_BOON_DDSOULPLAGUE_EQUIPMENT_FIRST" blue="true">
+        <text>Present Soulplague tech.</text>
+		<event load="DD_JUDGE_REWARD_DDSOULPLAGUE_TECH"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DDSOULPLAGUE_EQUIPMENT_REPEAT" blue="false">
+        <text>Present Soulplague tech.</text>
+		<event load="DD_JUDGE_REWARD_DDSOULPLAGUE_TECH"/>
+	</choice>
+	
 	<choice hidden="true">
 		<text>We have nothing to show.</text>
 		<event>

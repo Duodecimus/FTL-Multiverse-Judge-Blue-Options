@@ -751,7 +751,7 @@
 			<name>ACH ACH_BOON_REACTOR</name>
 		</req>
 	</req>
-
+	
 	<!--Rock Judge!-->
 	<mod-append:req name="ACH_BOON_START_FIRST" type="all">
 		<req type="any" load="JUDGELIST_ROCK_START"/>
@@ -1425,6 +1425,37 @@
 		</req>
 	</req>
 	
+	<mod-append:req name="ACH_BOON_DDSOULPLAGUE_CREW_FIRST" type="all">
+		<req type="any" load="LIST_DDSOULPLAGUE_ALIGNED"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_DDSOULPLAGUE_CREW</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_DDSOULPLAGUE_CREW_REPEAT" type="all">
+		<req type="any" load="LIST_DDSOULPLAGUE_ALIGNED"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_DDSOULPLAGUE_CREW</name>
+		</req>
+		
+	</req>
+
+	<mod-append:req name="ACH_BOON_DDCORRUPTOR_FIRST" type="all">
+		<req lvl="4">
+			<name>dd_corruptor</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_DDCORRUPTOR</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_DDCORRUPTOR_REPEAT" type="all">
+		<req lvl="4">
+			<name>dd_corruptor</name>
+		</req>
+		<req lvl="1">
+			<name>ACH ACH_BOON_DDCORRUPTOR</name>
+		</req>
+	</req>
+	
 	<mod-append:req name="ACH_BOON_DEEPONE_EQUIPMENT_FIRST" type="all">
 		<req type="any" load="JUDGELIST_ROCK_DEEPONE_GEAR"/>
 		<req lvl="0" max_lvl="0">
@@ -1450,6 +1481,160 @@
 			<name>ACH ACH_BOON_DISPARITY_EQUIPMENT</name>
 		</req>
 	</req>
+	
+	<mod-append:req name="ACH_BOON_DDSOULPLAGUE_EQUIPMENT_FIRST" type="all">
+		<req type="any" load="JUDGELIST_ROCK_DDSOULPLAGUE_GEAR"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_DDSOULPLAGUE_EQUIPMENT</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_DDSOULPLAGUE_EQUIPMENT_REPEAT" type="all">
+		<req type="any" load="JUDGELIST_ROCK_DDSOULPLAGUE_GEAR"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_DDSOULPLAGUE_EQUIPMENT</name>
+		</req>
+	</req>
+	
+	<!--The Outer Expansion-->
+
+	<mod-append:req name="ACH_BOON_AEA_SUPER_SHIELDS_FIRST" type="all">
+		<req lvl="3">
+			<name>aea_super_shields</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_AEA_SUPER_SHIELDS</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_AEA_SUPER_SHIELDS_REPEAT" type="all">
+		<req lvl="3">
+			<name>aea_super_shields</name>
+		</req>
+		<req lvl="1">
+			<name>ACH ACH_BOON_AEA_SUPER_SHIELDS</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_AEA_CLONE_CRIME_FIRST" type="all">
+		<req lvl="3">
+			<name>aea_clone_crime</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_AEA_CLONE_CRIME</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_AEA_CLONE_CRIME_REPEAT" type="all">
+		<req lvl="3">
+			<name>aea_clone_crime</name>
+		</req>
+		<req lvl="1">
+			<name>ACH ACH_BOON_AEA_CLONE_CRIME</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_AEA_ACID_FIRST" type="all">
+		<req type="any" load="LIST_CREW_AEA_ACID_ER"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_AEA_ACID</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_AEA_ACID_REPEAT" type="all">
+		<req type="any" load="LIST_CREW_AEA_ACID_ER"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_AEA_ACID</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_AEA_BIRD_FIRST" type="all">
+		<req type="any" load="LIST_CREW_AEA_BIRD_ER"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_AEA_BIRD</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_AEA_BIRD_REPEAT" type="all">
+		<req type="any" load="LIST_CREW_AEA_BIRD_ER"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_AEA_BIRD</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_AEA_CULT_FIRST" type="all">
+		<req type="any" load="LIST_CREW_AEA_CULT_ER"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_AEA_CULT</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_AEA_CULT_REPEAT" type="all">
+		<req type="any" load="LIST_CREW_AEA_CULT_ER"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_AEA_CULT</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_AEA_SHLEG_FIRST" type="all">
+		<req type="any" load="LIST_CREW_AEA_SHLEG_ER"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_AEA_SHLEG</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_AEA_SHLEG_REPEAT" type="all">
+		<req type="any" load="LIST_CREW_AEA_SHLEG_ER"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_AEA_SHLEG</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_AEA_SHARD_FIRST" type="all">
+		<req type="any" load="LIST_CREW_AEA_SHARD_ER"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_AEA_SHARD</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_AEA_SHARD_REPEAT" type="all">
+		<req type="any" load="LIST_CREW_AEA_SHARD_ER"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_AEA_SHARD</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_AEA_JUSTICE_FIRST" type="all">
+		<req type="any" load="aea_dark_justicier"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_AEA_JUSTICE</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_AEA_JUSTICE_REPEAT" type="all">
+		<req type="any" load="aea_dark_justicier"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_AEA_JUSTICE</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_AEA_OLD_FIRST" type="all">
+		<req type="any" load="LIST_CREW_AEA_OLD"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_AEA_OLD</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_AEA_OLD_REPEAT" type="all">
+		<req type="any" load="LIST_CREW_AEA_OLD"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_AEA_OLD</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_AEA_NECRO_FIRST" type="all">
+		<req type="any" load="LIST_CREW_AEA_NECRO_ER"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_AEA_NECRO</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_AEA_NECRO_REPEAT" type="all">
+		<req type="any" load="LIST_CREW_AEA_NECRO_ER"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_AEA_NECRO</name>
+		</req>
+	</req>
+	
 </mod:findLike>
 
 </FTL>
