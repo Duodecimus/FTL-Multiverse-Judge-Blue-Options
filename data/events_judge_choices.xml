@@ -1117,6 +1117,7 @@
 	</choice>
 </event>
 
+<!--
 <event name="OE_JUDGE_REWARD_NECRO">
 	<text>""</text>
 	<achievement silent="false">ACH_BOON_AEA_NECRO</achievement>
@@ -1125,4 +1126,4 @@
 		<text>Continue...</text>
 		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
 	</choice>
-</event>
+</event>  -->

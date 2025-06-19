@@ -1622,6 +1622,7 @@
 		</req>
 	</req>
 	
+<!--
 	<mod-append:req name="ACH_BOON_AEA_NECRO_FIRST" type="all">
 		<req type="any" load="LIST_CREW_AEA_NECRO_ER"/>
 		<req lvl="0" max_lvl="0">
@@ -1633,7 +1634,7 @@
 		<req lvl="1">
 			<name>ACH ACH_BOON_AEA_NECRO</name>
 		</req>
-	</req>
+	</req>!-->
 	
 </mod:findLike>
 

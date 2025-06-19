@@ -545,7 +545,7 @@
 		<event load="OE_JUDGE_REWARD_OLD"/>
 	</choice>
 
-<!--  Arс seems to have forgotten to add that choice to the OE. I made it myself
+<!--  
 
 	<choice hidden="true" req="ACH_BOON_AEA_NECRO_FIRST" blue="true">
 		<text>Present a ACH_BOON_AEA_NECRO Crew.</text>
