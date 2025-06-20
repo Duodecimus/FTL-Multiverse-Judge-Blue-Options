@@ -968,6 +968,28 @@
 	</choice>
 </event>
 
+<event name="DD_JUDGE_REWARD_DDSOULPLAGUE">
+	<text>"Their pretty colors... may allure some, but I know better. I would be... disturbed, were I not so... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<achievement silent="false">ACH_BOON_DDSOULPLAGUE_CREW</achievement>
+	<metaVariable name="prof_z_boon_ddsoulplague" op="set" val="1"/>
+	<variable name="ach_boon_ddsoulplague_crew" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<event name="DD_JUDGE_REWARD_DDCORRUPTOR">
+	<text>"Corruptor - for c-c-corrupting all! You pilot a: vessel worth steering clear from! Scary! Scary! For scary vessel: I provide Grant of C-c-corrupting! Grant of Corrupting! Save it - for the future!"</text>
+	<achievement silent="false">ACH_BOON_DDCORRUPTOR</achievement>
+	<metaVariable name="prof_e_boon_ddcorruptor" op="set" val="1"/>
+	<variable name="ach_boon_ddcorruptor" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
 <event name="DD_JUDGE_REWARD_DEEPONE_TECH">
 	<text>"Oh my... DEEP ONE Tech? Sure. This is tribute, I suppose. These fish-men are a STRANGE people, with even STRANGER technology! I'd LOATHE to face all those GLARING lights in battle, but I DIGRESS. I shall BLESS you with the BLESSING OF DREAD. But have PATIENCE. It is not for now, but for LATER!"</text>
 	<achievement silent="false">ACH_BOON_DEEPONE_EQUIPMENT</achievement>
@@ -989,3 +1011,119 @@
 		<event load="THE_JUDGES_ROCK_ADVICE"/>
 	</choice>
 </event>
+
+<event name="DD_JUDGE_REWARD_DDSOULPLAGUE_TECH">
+	<text>"Oh my... SOULPLAGUE Tech? Sure. This is tribute, I suppose. Its many colors may FOOL the UNSUSPECTING, but I know BETTER! This is dangerous, DANGEROUS stuff... but I DIGRESS. I shall BLESS you with the BLESSING OF IRIDESCENT CORRUPTION. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<achievement silent="false">ACH_BOON_DDSOULPLAGUE_EQUIPMENT</achievement>
+	<metaVariable name="prof_r_boon_ddsoulplague_gear" op="set" val="1"/>
+	<variable name="ach_boon_ddsoulplague_equipment" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<!--The Outer Expansion-->
+
+<event name="OE_JUDGE_REWARD_SUPER_SHIELDS">
+	<text>"Auxiliary Shields - defensive p-p-p-procedures they ensure! You pilot a: well protected vessel! Well protected vessel! For well protected vessel: I provide Grant of Au-Au-auxiliary shielding! Grant of Auxiliary Shielding! Save it - for the future!"</text>
+	<achievement silent="false">ACH_BOON_AEA_SUPER_SHIELDS</achievement>
+	<metaVariable name="prof_r_boon_aea_super_shields" op="set" val="1"/>
+	<variable name="ach_boon_aea_super_shields" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<event name="OE_JUDGE_REWARD_CLONE_CRIME">
+	<text>"What have you done to your clonebay - that is ap-p-p-palling! You - you should be facing a jury, your vessel is ...a crime!.. against the galaxy! Your sh-ship should be [destroyed], however I will still give you the Grant of an Ill-Illegally Modified Clonebay! Grant of Illegally Modified Clonebay! Save it - for the future!"</text>
+	<achievement silent="false">ACH_BOON_AEA_CLONE_CRIME</achievement>
+	<metaVariable name="prof_r_boon_aea_clone_crime" op="set" val="1"/>
+	<variable name="ach_boon_aea_clone_crime" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<event name="OE_JUDGE_REWARD_ACID">
+	<text>""</text>
+	<achievement silent="false">ACH_BOON_AEA_ACID</achievement>
+	<metaVariable name="prof_z_boon_aea_acid" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<event name="OE_JUDGE_REWARD_BIRD">
+	<text>""</text>
+	<achievement silent="false">ACH_BOON_AEA_BIRD</achievement>
+	<metaVariable name="prof_z_boon_aea_bird" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<event name="OE_JUDGE_REWARD_CULT">
+	<text>""</text>
+	<achievement silent="false">ACH_BOON_AEA_CULT</achievement>
+	<metaVariable name="prof_z_boon_aea_cult" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<event name="OE_JUDGE_REWARD_SHLEG">
+	<text>""</text>
+	<achievement silent="false">ACH_BOON_AEA_SHLEG</achievement>
+	<metaVariable name="prof_z_boon_aea_shleg" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<event name="OE_JUDGE_REWARD_SHARD">
+	<text>""</text>
+	<achievement silent="false">ACH_BOON_AEA_SHARD</achievement>
+	<metaVariable name="prof_z_boon_aea_shard" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<event name="OE_JUDGE_REWARD_JUSTICE">
+	<text>""</text>
+	<achievement silent="false">ACH_BOON_AEA_JUSTICE</achievement>
+	<metaVariable name="prof_z_boon_aea_justice" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<event name="OE_JUDGE_REWARD_OLD">
+	<text>""</text>
+	<achievement silent="false">ACH_BOON_AEA_OLD</achievement>
+	<metaVariable name="prof_z_boon_aea_old" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<!--
+<event name="OE_JUDGE_REWARD_NECRO">
+	<text>""</text>
+	<achievement silent="false">ACH_BOON_AEA_NECRO</achievement>
+	<metaVariable name="prof_z_boon_aea_necro" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>  -->
