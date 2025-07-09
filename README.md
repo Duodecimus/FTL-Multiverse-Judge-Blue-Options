@@ -38,3 +38,6 @@ V1.4: Added Darkest Desires Deep one crew and weapon, and disparity weapon, upda
 
 V1.5: Updated Darkest Desires and Outer Expansion to add new races and system boons. Some judge events are missing text as the text is not in the source addon
 	Thanks to Aleev for coding this update! 
+
+V1.6: Updated Darkest Desires new races and weapon.
+	Thanks again to Aleev for coding this update! 
