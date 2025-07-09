@@ -480,6 +480,34 @@
 		<event load="DD_JUDGE_REWARD_DDSOULPLAGUE"/>
 	</choice>
 	
+	<choice hidden="true" req="ACH_BOON_DDDEEPONE_ELITE_FIRST" blue="true">
+		<text>Present a Deep One Chosen.</text>
+		<event load="DD_JUDGE_REWARD_DDDEEPONE_ELITE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DDDEEPONE_ELITE_REPEAT" blue="false">
+		<text>Present a Deep One Chosen.</text>
+		<event load="DD_JUDGE_REWARD_DDDEEPONE_ELITE"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_DISPARITY_ELITE_FIRST" blue="true">
+		<text>Present a Disparity Elite.</text>
+		<event load="DD_JUDGE_REWARD_DISPARITY_ELITE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DISPARITY_ELITE_REPEAT" blue="false">
+		<text>Present a Disparity Elite.</text>
+		<event load="DD_JUDGE_REWARD_DISPARITY_ELITE"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_DDSERAPHIM_CREW_FIRST" blue="true">
+		<text>Present a Seraph.</text>
+		<event load="DD_JUDGE_REWARD_DDSERAPHIM"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DDSERAPHIM_CREW_REPEAT" blue="false">
+		<text>Present a Seraph.</text>
+		<event load="DD_JUDGE_REWARD_DDSERAPHIM"/>
+	</choice>
+	
+	
 <!--The Outer Expansion-->
 	
 	<choice hidden="true" req="ACH_BOON_AEA_ACID_FIRST" blue="true">
@@ -1129,6 +1157,15 @@
 	<choice hidden="true" req="ACH_BOON_DDSOULPLAGUE_EQUIPMENT_REPEAT" blue="false">
         <text>Present Soulplague tech.</text>
 		<event load="DD_JUDGE_REWARD_DDSOULPLAGUE_TECH"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_DDFALSERADIANCE_GEAR_FIRST" blue="true">
+		<text>Present a Living Lightborne.</text>
+		<event load="DD_JUDGE_REWARD_DDFALSERADIANCE_GEAR"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DDFALSERADIANCE_GEAR_REPEAT" blue="false">
+		<text>Present a Living Lightborne.</text>
+		<event load="DD_JUDGE_REWARD_DDFALSERADIANCE_GEAR"/>
 	</choice>
 	
 	<choice hidden="true">
