@@ -2,7 +2,7 @@
   <title><![CDATA[ Multiverse: Blue Judge Options ]]></title>
   <threadUrl><![CDATA[ https://ftlmultiverse.boards.net/thread/88/multiverse-blue-judge-options ]]></threadUrl>
   <author><![CDATA[ Duodecimus ]]></author>
-  <version><![CDATA[ MV5.4.5 v1.4 ]]></version>
+  <version><![CDATA[ MV5.5.1 v1.5 ]]></version>
   <description>
 <![CDATA[ 
 This mod modifies the Node 17 judge event to turn options not yet shown to them blue.
@@ -15,7 +15,7 @@ Supports:
 	Insurrection + Selection (5.5.1)
 	C&C Weapons: Renegade (5.0)
 	Fishier Than Light (1.2.3)
-	Darkest Desire (3.4.2)
+	Darkest Desire (4.0.2)
 	The Outer Expansion (7.1.8)
 
 Any other mods that also modify boons will need to be loaded after this mod.

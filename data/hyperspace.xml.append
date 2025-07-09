@@ -1495,6 +1495,58 @@
 		</req>
 	</req>
 	
+	<mod-append:req name="ACH_BOON_DDDEEPONE_ELITE_FIRST" type="all">
+		<name>dddeepone_chosen</name>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_DDDEEPONE_ELITE</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_DDDEEPONE_ELITE_REPEAT" type="all">
+		<name>dddeepone_chosen</name>
+		<req lvl="1">
+			<name>ACH ACH_BOON_DDDEEPONE_ELITE</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_DISPARITY_ELITE_FIRST" type="all">
+		<req type="any" load="BLUELIST_CREW_DISPARITY_ELITE"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_ENGI</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_DISPARITY_ELITE_REPEAT" type="all">
+		<req type="any" load="BLUELIST_CREW_DISPARITY_ELITE"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_ENGI</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_DDSERAPHIM_CREW_FIRST" type="all">
+		<req type="any" load="LIST_CREW_DDSERAPHIM"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_DDSERAPHIM_CREW</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_DDSERAPHIM_CREW_REPEAT" type="all">
+		<req type="any" load="LIST_CREW_DDSERAPHIM"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_DDSERAPHIM_CREW</name>
+		</req>
+	</req>
+	
+	<mod-append:req name="ACH_BOON_DDFALSERADIANCE_GEAR_FIRST" type="all">
+		<req type="any" load="BLUELIST_DDLIGHTBORNE_EQUIPMENT"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_DDFALSERADIANCE_GEAR</name>
+		</req>
+	</req>
+	<mod-append:req name="ACH_BOON_DDFALSERADIANCE_GEAR_REPEAT" type="all">
+		<req type="any" load="BLUELIST_DDLIGHTBORNE_EQUIPMENT"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_DDFALSERADIANCE_GEAR</name>
+		</req>
+	</req>
+	
 	<!--The Outer Expansion-->
 
 	<mod-append:req name="ACH_BOON_AEA_SUPER_SHIELDS_FIRST" type="all">

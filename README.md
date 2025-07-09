@@ -9,7 +9,7 @@ Supports:
 * Insurrection + Selection (5.5.1)
 * C&C Weapons: Renegade (5.0)
 * Fishier Than Light (1.2.3)
-* Darkest Desire (3.4.2)
+* Darkest Desire (4.0.2)
 * The Outer Expansion (7.1.8)
 
 Any other mods that also modify boons will need to be loaded after this mod.
