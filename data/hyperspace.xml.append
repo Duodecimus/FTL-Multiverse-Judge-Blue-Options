@@ -566,7 +566,7 @@
 	</req>
 
 	<mod-append:req name="ACH_BOON_TELEPORTER_FIRST" type="all">
-		<req lvl="4">
+		<req lvl="3">
 			<name>teleporter</name>
 		</req>
 		<req lvl="0" max_lvl="0">
@@ -574,7 +574,7 @@
 		</req>
 	</req>
 	<mod-append:req name="ACH_BOON_TELEPORTER_REPEAT" type="all">
-		<req lvl="4">
+		<req lvl="3">
 			<name>teleporter</name>
 		</req>
 		<req lvl="1">
