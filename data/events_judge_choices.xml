@@ -1169,3 +1169,49 @@
 		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
 	</choice>
 </event>  -->
+
+<!--Lily's Innovations-->
+
+<event name="LI_JUDGE_REWARD_ABLATIVE_ARMOR">
+	<text>"Ablative Armor - defensive p-p-p-procedures it ensures! You pilot a: well protected vessel! Well protected vessel! For well protected vessel: I provide Grant of Ab-Ab-ablative Armor! Grant of Ablative Armor! Save it - for the future!"</text>
+	<achievement>ACH_BOON_LILY_ABLATIVE_ARMOR</achievement>
+	<metaVariable name="prof_e_boon_lily_ablative_armor" op="set" val="1"/>
+	<variable name="ach_boon_lily_ablative_armor" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+
+<event name="LI_JUDGE_REWARD_INFUSION_BAY">
+	<text>"Infusion Bay - risk, and reward! R-r-risk, r-r-r-reward... [which] is heavier? You are: here... a captain: -considerate- of potentiality! For heavy consideration, and heavier p-p-potential: I provide Grant of I-i-i-infusion! Grant of Infusion! Save it - for the future!"</text>
+	<achievement>ACH_BOON_LILY_INFUSION_BAY</achievement>
+    <metaVariable name="prof_e_boon_lily_infusion_bay" op="set" val="1"/>
+    <variable name="ach_boon_lily_infusion_bay" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+
+<event name="LI_JUDGE_REWARD_SHOCK_NEUTRALIZER">
+	<text>"Shock Neutralizer - for p-p-p-protection against ions! Ions! A Technology - for [helping] other technology! Technology!!! For this: I [proudly] provide Grant of Shock Neutralizer! Grant of Shock Neutralizer! Save it - for the future!"</text>
+	<achievement>ACH_BOON_LILY_SHOCK_NEUTRALIZER</achievement>
+    <metaVariable name="prof_e_boon_lily_shock_neutralizer" op="set" val="1"/>
+    <variable name="ach_boon_lily_shock_neutralizer" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
+
+<event name="LI_JUDGE_REWARD_SYSTEM_BRACERS">
+    <text>"System Bracers - for p-p-p-protection against system damage! You pilot a: reliable vessel! Reliable vessel! For reliable vessel: I provide Grant of Br-br-bracing! Grant of Bracing! Save it - for the future!"</text>
+    <achievement>ACH_BOON_LILY_SYSTEM_BRACERS</achievement>
+    <metaVariable name="prof_e_boon_lily_system_bracers" op="set" val="1"/>
+    <variable name="ach_boon_lily_system_bracers" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>

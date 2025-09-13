@@ -2,7 +2,7 @@
   <title><![CDATA[ Multiverse: Blue Judge Options ]]></title>
   <threadUrl><![CDATA[ https://ftlmultiverse.boards.net/thread/88/multiverse-blue-judge-options ]]></threadUrl>
   <author><![CDATA[ Duodecimus ]]></author>
-  <version><![CDATA[ MV5.5.1 v1.5 ]]></version>
+  <version><![CDATA[ MV5.5.1 v1.8 ]]></version>
   <description>
 <![CDATA[ 
 This mod modifies the Node 17 judge event to turn options not yet shown to them blue.
@@ -17,6 +17,8 @@ Supports:
 	Fishier Than Light (1.2.3)
 	Darkest Desire (4.0.2)
 	The Outer Expansion (7.1.8)
+	Lily's Innovations (1.5.0)
+	Expanded Multiverse (0.6.1)
 
 Any other mods that also modify boons will need to be loaded after this mod.
 Let me know about them and I can add support!
