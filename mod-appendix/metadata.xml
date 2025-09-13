@@ -40,7 +40,9 @@ V1.3: Fixed Forgotten Race's Haunt gun always being blue, fixed Forgemaster's Te
 V1.4: Added Darkest Desires Deep one crew and weapon, and disparity weapon, updated Forgotten Race's Haunts into Revenants
 V1.5: Updated Darkest Desires and Outer Expansion to add new races and system boons. Some judge events are missing text as the text is not in the source addon.	Thanks to Aleev for coding this update! 
 V1.6: Updated Darkest Desires new races and weapon. Thanks again to Aleev for coding this update! 
-V1.7: MV 5.5 lowered the maximum possible teleporter level, fixed the bonn requirement to match
+V1.7: MV 5.5 lowered the maximum possible teleporter level, fixed the boon requirement to match
+V1.8: Added boons from Lily's Innovations and Expanded Multiverse
+	Thanks again to Aleev for coding this update! 
 ]]>
   </description>
 </metadata>

@@ -44,4 +44,7 @@ V1.5: Updated Darkest Desires and Outer Expansion to add new races and system bo
 V1.6: Updated Darkest Desires new races and weapon.
 	Thanks again to Aleev for coding this update! 
 
-V1.7: MV 5.5 lowered the maximum possible teleporter level, fixed the bonn requirement to match
+V1.7: MV 5.5 lowered the maximum possible teleporter level, fixed the boon requirement to match
+
+V1.8: Added boons from Lily's Innovations and Expanded Multiverse
+	Thanks again to Aleev for coding this update! 
