@@ -11,6 +11,8 @@ Supports:
 * Fishier Than Light (1.2.3)
 * Darkest Desire (4.0.2)
 * The Outer Expansion (7.1.8)
+* Lily's Innovations (1.5.0)
+* Expanded Multiverse (0.6.1)
 
 Any other mods that also modify boons will need to be loaded after this mod.
 

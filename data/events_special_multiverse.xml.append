@@ -572,6 +572,7 @@
 		<text>Present a Lylmik Crew.</text>
 		<event load="OE_JUDGE_REWARD_OLD"/>
 	</choice>
+	
 
 <!--  
 
@@ -583,6 +584,19 @@
 		<text>Present a ACH_BOON_AEA_NECRO Crew.</text>
 		<event load="OE_JUDGE_REWARD_OLD"/>
 	</choice> -->
+	
+<!-- Expanded Multiverse -->
+
+	<choice hidden="true" req="ACH_BOON_EMV_ROGUE_FIRST" blue="true">
+		<text>Present an Rogue Fleet Member.</text>
+		<event load="JUDGE_AWARD_HUMAN_MFK"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_EMV_ROGUE_REPEAT" blue="false">
+		<text>Present an Rogue Fleet Member.</text>
+		<event load="JUDGE_AWARD_HUMAN_MFK"/>
+	</choice>
+
+
 
 	<choice hidden="true">
 		<text>We have nothing to show.</text>
@@ -797,6 +811,44 @@
 	<choice hidden="true" req="ACH_BOON_AEA_CLONE_CRIME_REPEAT" blue="false">
 		<text>Present your Illegally Modified Clonebay system.</text>
 		<event load="OE_JUDGE_REWARD_CLONE_CRIME"/>
+	</choice>
+	
+<!--Lily's Innovations-->
+
+	<choice hidden="true" req="ACH_BOON_LILY_ABLATIVE_ARMOR_FIRST" blue="true">
+		<text>Present your Ablative Armor system.</text>
+		<event load="LI_JUDGE_REWARD_ABLATIVE_ARMOR"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_LILY_ABLATIVE_ARMOR_REPEAT" blue="false">
+		<text>Present your Ablative Armor system.</text>
+		<event load="LI_JUDGE_REWARD_ABLATIVE_ARMOR"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_LILY_INFUSION_BAY_FIRST" blue="true">
+		<text>Present your Infusion Bay system.</text>
+		<event load="LI_JUDGE_REWARD_INFUSION_BAY"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_LILY_INFUSION_BAY_REPEAT" blue="false">
+		<text>Present your Infusion Bay system.</text>
+		<event load="LI_JUDGE_REWARD_INFUSION_BAY"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_LILY_SHOCK_NEUTRALIZER_FIRST" blue="true">
+		<text>Present your Shock Neutralizer subsystem.</text>
+		<event load="LI_JUDGE_REWARD_SHOCK_NEUTRALIZER"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_LILY_SHOCK_NEUTRALIZER_REPEAT" blue="false">
+		<text>Present your Shock Neutralizer subsystem.</text>
+		<event load="LI_JUDGE_REWARD_SHOCK_NEUTRALIZER"/>
+	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_LILY_SYSTEM_BRACERS_FIRST" blue="true">
+		<text>Present your System Bracers subsystem.</text>
+		<event load="LI_JUDGE_REWARD_SYSTEM_BRACERS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_LILY_SYSTEM_BRACERS_REPEAT" blue="false">
+		<text>Present your System Bracers subsystem.</text>
+		<event load="LI_JUDGE_REWARD_SYSTEM_BRACERS"/>
 	</choice>
 	
 	<choice hidden="true">
