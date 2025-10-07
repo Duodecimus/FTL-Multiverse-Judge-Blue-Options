@@ -1757,6 +1757,23 @@
 		</req>
 	</mod-append:req>
 	
+	<mod-append:req name="ACH_BOON_LILY_TARGETING_CORE_FIRST" type="all">
+		<req lvl="4">
+			<name>lily_targeting_core</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_LILY_TARGETING_CORE</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_LILY_TARGETING_CORE_REPEAT" type="all">
+		<req lvl="4">
+			<name>lily_targeting_core</name>
+		</req>
+		<req lvl="1">
+			<name>ACH ACH_BOON_LILY_TARGETING_CORE</name>
+		</req>
+	</mod-append:req>
+	
 <!-- Expanded Multiverse -->
 	
 	<mod-append:req name="ACH_BOON_EMV_ROGUE_FIRST" type="all">
@@ -1772,7 +1789,72 @@
 		</req>
 	</mod-append:req>
 	
+	ACH_BOON_DUSTWORM_FIRST
 	
+	<mod-append:req name="ACH_BOON_AA_DUSTWORM_FIRST" type="all">
+		<req type="any" load="AA_LIST_CREW_DUSTWORM"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH AA_ACH_BOON_DUSTWORM</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_AA_DUSTWORM_REPEAT" type="all">
+		<req type="any" load="AA_LIST_CREW_DUSTWORM"/>
+		<req lvl="1">
+			<name>ACH AA_ACH_BOON_DUSTWORM</name>
+		</req>
+	</mod-append:req>
+	
+	<mod-append:req name="ACH_BOON_AA_DISRUPTOR_FIRST" type="all">
+		<req type="any" load="AA_LIST_WEAPONS_DISRUPTOR"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_DISRUPTOR</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_AA_DISRUPTOR_REPEAT" type="all">
+		<req type="any" load="AA_LIST_WEAPONS_DISRUPTOR"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_DISRUPTOR</name>
+		</req>
+	</mod-append:req>
+	
+	<mod-append:req name="ACH_BOON_AA_INFUSER_FIRST" type="all">
+		<req type="any" load="AA_LIST_WEAPONS_INFUSER"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_INFUSER</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_AA_INFUSER_REPEAT" type="all">
+		<req type="any" load="AA_LIST_WEAPONS_INFUSER"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_INFUSER</name>
+		</req>
+	</mod-append:req>
+	
+	<mod-append:req name="ACH_BOON_AA_IMAGINATOR_FIRST" type="all">
+		<req type="any" load="AA_BEAM_IMAGINE"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_IMAGINATOR</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_AA_IMAGINATOR_REPEAT" type="all">
+		<req type="any" load="AA_BEAM_IMAGINE"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_IMAGINATOR</name>
+		</req>
+	</mod-append:req>
+	
+	<mod-append:req name="ACH_BOON_AA_MADNESS_FIRST" type="all">
+		<req type="any" load="AA_INFUSER_MADNESS"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_MADNESS</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_AA_MADNESS_REPEAT" type="all">
+		<req type="any" load="AA_INFUSER_MADNESS"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_MADNESS</name>
+		</req>
+	</mod-append:req>
 </mod:findLike>
 
 </FTL>

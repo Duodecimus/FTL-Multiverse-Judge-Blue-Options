@@ -1215,3 +1215,66 @@
 		<event load="THE_JUDGES_ENGI_ADVICE"/>
 	</choice>
 </event>
+
+<event name="LI_JUDGE_REWARD_TARGETING_CORE">
+    <text>"Dedicated Targeting Core - for a d-d-dedicated sharpshooter! No enemy can: evade you now! For dedicated sharpshooter: I provide Grant of T-t-targeting! Grant of Targeting! Save it - for the future!"</text>
+    <achievement>ACH_BOON_LILY_TARGETING_CORE</achievement>
+    <metaVariable name="prof_e_boon_lily_targeting_core" op="set" val="1"/>
+    <variable name="ach_boon_lily_targeting_core" op="set" val="1"/>
+    <choice hidden="true">
+        <text>Continue...</text>
+        <event load="THE_JUDGES_ENGI_ADVICE"/>
+    </choice>
+</event>
+
+<!--Alder's Additions-->
+
+<event name="AA_JUDGE_REWARD_DUSTWORM">
+	<text>"Strange beings. Alien to this reality... but why, I... cannot say. Your influence must reach... far, your careful searching... lucrative. To recruit such species is an... impressive feat. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="aa_meta_boon_z_dustworm" op="set" val="1"/>
+	<achievement silent="false">AA_ACH_BOON_DUSTWORM</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+
+<event name="AA_JUDGE_REWARD_DISRUPTOR">
+	<text>"A BEAM? That IONIZES? A PECULIAR weapon, from a PECULIAR source... I CANNOT tell you what I have SEEN, for the CREED binds me, but it was BOUND to appear SOONER rather than LATER! It is TRIBUTE, I suppose. So, I shall BLESS you with the BLESSING OF INSULATION. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="aa_meta_boon_r_disruptor" op="set" val="1"/>
+	<achievement silent="false">AA_ACH_BOON_DISRUPTOR</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<event name="AA_JUDGE_REWARD_INFUSER">
+	<text>"What... is THIS? It does not FIRE, but it helps OTHERS do the same? Hah! Such tribute is NOT impressive to the UNTRAINED eye... but one should NEVER underestimate a weapon BOOSTED by the RIGHT TECHNOLOGY! I shall BLESS you with the BLESSING OF EMPOWERMENT. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="aa_meta_boon_r_infuser" op="set" val="1"/>
+	<achievement silent="false">AA_ACH_BOON_INFUSER</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<event name="AA_JUDGE_REWARD_IMAGINATOR">
+	<text>"I do not quite UNDERSTAND what it is you have SHOWN me. This is a BEAM, yes? But what does it DO? WONDER, you say? I have no IDEA what that means! Thest fancies to think he KNOWS EVERYTHING, but does he know THIS?! I doubt it. If he did, he would have SHARED it with us. RIGHT? Alas. I shall BLESS you with the BLESSING OF IMAGINATION. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="aa_meta_boon_r_imagine" op="set" val="1"/>
+	<achievement silent="false">AA_ACH_BOON_IMAGINATOR</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<event name="AA_JUDGE_REWARD_MADNESS">
+	<text>"I do not quite UNDERSTAND what it is you have SHOWN me. This is an INFUSER, yes? But what does it DO? MADNESS, you say? I have no IDEA what that means! Thest fancies to think he KNOWS EVERYTHING, but does he know THIS?! I doubt it. If he did, he would have SHARED it with us. RIGHT? Alas. I shall BLESS you with the BLESSING OF POETS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_madness" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_MADNESS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>

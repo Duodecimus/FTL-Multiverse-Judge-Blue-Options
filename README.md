@@ -11,8 +11,9 @@ Supports:
 * Fishier Than Light (1.2.3)
 * Darkest Desire (4.0.2)
 * The Outer Expansion (7.1.8)
-* Lily's Innovations (1.5.0)
+* Lily's Innovations (1.6.0)
 * Expanded Multiverse (0.6.1)
+* Alder's Additions (2.1.1)
 
 Any other mods that also modify boons will need to be loaded after this mod.
 
@@ -48,3 +49,5 @@ V1.7: MV 5.5 lowered the maximum possible teleporter level, fixed the boon requi
 
 V1.8: Added boons from Lily's Innovations and Expanded Multiverse
 	Thanks again to Aleev for coding this update! 
+
+V1.9: Added Lily's Innovation's Targeting system, and four boons from Alder's Additions
