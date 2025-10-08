@@ -452,6 +452,15 @@
 		<event load="IPS_JUDGE_REWARD_HOLO"/>
 	</choice>
 	
+	<choice hidden="true" req="ACH_IPS_BOON_ANNELID_FIRST" blue="true">
+		<text>Present an Annelid crew.</text>
+		<event load="IPS_JUDGE_REWARD_ANNELID"/>
+	</choice>
+	<choice hidden="true" req="ACH_IPS_BOON_ANNELID_REPEAT" blue="false">
+		<text>Present an Annelid crew.</text>
+		<event load="IPS_JUDGE_REWARD_ANNELID"/>
+	</choice>
+	
 	<choice hidden="true" req="ACH_IPS_BOON_SONA_FIRST" blue="true">
 		<text>Present the lost explorer.</text>
 		<event load="IPS_JUDGE_REWARD_SONA"/>

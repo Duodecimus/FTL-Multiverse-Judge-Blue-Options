@@ -11,7 +11,7 @@ Supports:
 * Fishier Than Light (1.2.3)
 * Darkest Desire (4.0.2)
 * The Outer Expansion (7.1.8)
-* Lily's Innovations (1.6.0)
+* Lily's Innovations (1.6.2)
 * Expanded Multiverse (0.6.1)
 * Alder's Additions (2.1.1)
 
@@ -51,3 +51,5 @@ V1.8: Added boons from Lily's Innovations and Expanded Multiverse
 	Thanks again to Aleev for coding this update! 
 
 V1.9: Added Lily's Innovation's Targeting system, and four boons from Alder's Additions
+
+V1.10: Added Annelid boon from IPS

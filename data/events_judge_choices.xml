@@ -915,6 +915,15 @@
 		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
 	</choice>
 </event>
+<event name="IPS_JUDGE_REWARD_ANNELID">
+	<text>"What a... fascinating creature... it looks like a... Leech, but also not... their ferocious nature... belies their appearance... I wonder where it came from, and... how they managed... to reach space... Well done, traveler. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_r_boon_ips_annelid" op="set" val="1"/>
+	<achievement silent="false">ACH_IPS_BOON_ANNELID</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
 <event name="IPS_JUDGE_REWARD_SONA">
 	<text>"Who... are you..? I can sense it... you're not from here... and you feel lost... out of place. ...Do not be afraid... I'm sure the answers... will come your way soon... Well done, traveler. Expect... rewards before your next journey." Sona would simply respond with as polite a bow as she could muster. "I appreciate the words of wisdom... thank you."</text>
 	<metaVariable name="prof_r_boon_ips_sona" op="set" val="1"/>

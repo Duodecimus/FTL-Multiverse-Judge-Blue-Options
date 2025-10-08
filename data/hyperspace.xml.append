@@ -1357,6 +1357,19 @@
 		</req>
 	</mod-append:req>
 	
+	<mod-append:req name="ACH_IPS_BOON_ANNELID_FIRST" type="all">
+		<name>ips_annelid</name>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_IPS_BOON_ANNELID</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_IPS_BOON_ANNELID_REPEAT" type="all">
+		<name>ips_annelid</name>
+		<req lvl="1">
+			<name>ACH ACH_IPS_BOON_ANNELID</name>
+		</req>
+	</mod-append:req>
+
 	<mod-append:req name="ACH_IPS_BOON_SONA_FIRST" type="all">
 		<req type="any" load="LIST_CREWID_SONA"/>
 		<req lvl="0" max_lvl="0">
