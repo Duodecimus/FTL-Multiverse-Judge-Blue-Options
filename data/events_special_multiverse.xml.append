@@ -582,6 +582,15 @@
 		<event load="OE_JUDGE_REWARD_OLD"/>
 	</choice>
 	
+<!--Lily's Beam Emporium -->
+	<choice hidden="true" req="ACH_BOON_LILY_SIREN_FIRST" blue="true">
+		<text>Present a Siren.</text>
+		<event load="LBE_JUDGE_REWARD_SIREN"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_LILY_SIREN_REPEAT" blue="false">
+		<text>Present a Siren.</text>
+		<event load="LBE_JUDGE_REWARD_SIREN"/>
+	</choice>
 
 <!--  
 

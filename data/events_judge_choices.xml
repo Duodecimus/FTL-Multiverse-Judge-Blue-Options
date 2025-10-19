@@ -1236,8 +1236,19 @@
     </choice>
 </event>
 
-<!--Alder's Additions-->
+<!--Lily's Beam Emporium -->
+<event name="LBE_JUDGE_REWARD_SIREN">
+    <text>"Sirens... a mysterious race of unknown origins... and with powers that can break someone's mind with their mere presence... And yet... you have made one of them your ally... Yes, I am... very impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+    <achievement>ACH_BOON_LILY_SIREN</achievement>
+    <metaVariable name="prof_z_boon_lily_siren" op="set" val="1"/>
+    <variable name="ach_boon_lily_siren" op="set" val="1"/>
+    <choice hidden="true">
+        <text>Continue...</text>
+        <event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+    </choice>
+</event>
 
+<!--Alder's Additions-->
 <event name="AA_JUDGE_REWARD_DUSTWORM">
 	<text>"Strange beings. Alien to this reality... but why, I... cannot say. Your influence must reach... far, your careful searching... lucrative. To recruit such species is an... impressive feat. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
 	<metaVariable name="aa_meta_boon_z_dustworm" op="set" val="1"/>
