@@ -1801,6 +1801,46 @@
 		</req>
 	</mod-append:req>
 	
+	<mod-append:req name="ACH_BOON_LILY_AVATAR_FIRST" type="all">
+		<req type="any" load="LIST_CREW_LILY_AVATAR"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_LILY_AVATAR</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_LILY_AVATAR_REPEAT" type="all">
+		<req type="any" load="LIST_CREW_LILY_AVATAR"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_LILY_AVATAR</name>
+		</req>
+	</mod-append:req>
+	
+	
+	<mod-append:req name="ACH_BOON_LILY_SPECTRUM_FIRST" type="all">
+		<req type="any" load="JUDGELIST_ROCK_SPECTRUM"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_LILY_SPECTRUM</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_LILY_SPECTRUM_REPEAT" type="all">
+		<req type="any" load="JUDGELIST_ROCK_SPECTRUM"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_LILY_SPECTRUM</name>
+		</req>
+	</mod-append:req>
+	
+	<mod-append:req name="ACH_BOON_LILY_DISINTEGRATOR_FIRST" type="all">
+		<req type="any" load="JUDGELIST_ROCK_DISINTEGRATOR"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_LILY_DISINTEGRATOR</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_LILY_DISINTEGRATOR_REPEAT" type="all">
+		<req type="any" load="JUDGELIST_ROCK_DISINTEGRATOR"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_LILY_DISINTEGRATOR</name>
+		</req>
+	</mod-append:req>
+	
 <!-- Expanded Multiverse -->
 	
 	<mod-append:req name="ACH_BOON_EMV_ROGUE_FIRST" type="all">

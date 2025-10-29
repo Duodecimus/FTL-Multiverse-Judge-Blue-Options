@@ -12,7 +12,7 @@ Supports:
 * Darkest Desire (4.0.2)
 * The Outer Expansion (7.1.8)
 * Lily's Innovations (1.6.2)
-* Lily's Beam Emporium (1.5.2)
+* Lily's Beam Emporium (1.5.4)
 * Expanded Multiverse (0.6.1)
 * Alder's Additions (2.1.1)
 
@@ -56,3 +56,5 @@ V1.9: Added Lily's Innovation's Targeting system, and four boons from Alder's Ad
 V1.10: Added Annelid boon from IPS
 
 V1.11: Added Siren boon from LBE
+
+V1.12: Added three new boons from LBE 1.5.3

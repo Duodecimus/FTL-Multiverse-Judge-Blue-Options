@@ -1248,6 +1248,39 @@
     </choice>
 </event>
 
+<event name="LBE_JUDGE_REWARD_AVATAR">
+    <text>You suddenly feel an overwhelming sense of unease for a moment. "Wait... This energy... Is she ... Who I think she is?... Oh, please ignore my ramblings, Renegade... The creed... Forbids me from telling much anyway... All I can tell is she is an anomaly... Of immense threat and power... But the fact that you are still alive tells me that she is on your side, for now at least, whatever her motives might be... Yes, this is... very impressive. Expect... rewards before your next journey. Just... Please be careful."</text>
+    <achievement>ACH_BOON_LILY_AVATAR</achievement>
+    <metaVariable name="prof_z_boon_lily_avatar" op="set" val="1"/>
+    <variable name="ach_boon_lily_avatar" op="set" val="1"/>
+    <choice hidden="true">
+        <text>Continue...</text>
+        <event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+    </choice>
+</event>
+
+<event name="LBE_JUDGE_REWARD_SPECTRUM">
+    <text>"Oh, this is a FINELY CRAFTED weapon. A Beam, yes? That can do MANY THINGS in ONE PACKAGE? Does it do your LAUNDRY too? Haha! Sure. This is a good TRIBUTE! I shall BLESS you with the BLESSING OF SPECTRUM. But have PATIENCE. It is not for now, but for LATER!"</text>
+    <achievement silent="false">ACH_BOON_LILY_SPECTRUM</achievement>
+    <metaVariable name="prof_r_boon_lily_spectrum" op="set" val="1"/>
+    <variable name="ach_boon_lily_spectrum" op="set" val="1"/>
+    <choice hidden="true">
+        <text>Continue...</text>
+        <event load="THE_JUDGES_ROCK_ADVICE"/>
+    </choice>
+</event>
+
+<event name="LBE_JUDGE_REWARD_DISINTEGRATOR">
+    <text>"Oh my... A DISINTEGRATOR? Now THIS is TRIBUTE! Truly EVIL weapons, dealing UNHEALABLE wounds to METAL and FLESH alike! But as EVIL those WEAPONS might be, their POWER can't be denied! I shall BLESS you with the BLESSING OF DISINTEGRATION. But have PATIENCE. It is not for now, but for LATER!"</text>
+    <achievement silent="false">ACH_BOON_LILY_DISINTEGRATOR</achievement>
+    <metaVariable name="prof_r_boon_lily_disintegrator" op="set" val="1"/>
+    <variable name="ach_boon_lily_disintegrator" op="set" val="1"/>
+    <choice hidden="true">
+        <text>Continue...</text>
+        <event load="THE_JUDGES_ROCK_ADVICE"/>
+    </choice>
+</event>
+
 <!--Alder's Additions-->
 <event name="AA_JUDGE_REWARD_DUSTWORM">
 	<text>"Strange beings. Alien to this reality... but why, I... cannot say. Your influence must reach... far, your careful searching... lucrative. To recruit such species is an... impressive feat. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
