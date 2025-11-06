@@ -58,3 +58,5 @@ V1.10: Added Annelid boon from IPS
 V1.11: Added Siren boon from LBE
 
 V1.12: Added three new boons from LBE 1.5.3
+
+V1.13: Added Fiber Liner boon from LI

@@ -1236,6 +1236,17 @@
     </choice>
 </event>
 
+<event name="LI_JUDGE_REWARD_FIBER_LINER">
+    <text>"Fiber Liner - for p-p-p-protecting your crew against harm! You are a: b-b-benevolent captain! For your kindness: I provide Grant of F-Fibers! Grant of Fibers! Save it - for the future!"</text>
+    <achievement>ACH_BOON_LILY_FIBER_LINER</achievement>
+    <metaVariable name="prof_e_boon_lily_fiber_liner" op="set" val="1"/>
+    <variable name="ach_boon_lily_fiber_liner" op="set" val="1"/>
+    <choice hidden="true">
+        <text>Continue...</text>
+        <event load="THE_JUDGES_ENGI_ADVICE"/>
+    </choice>
+</event>
+
 <!--Lily's Beam Emporium -->
 <event name="LBE_JUDGE_REWARD_SIREN">
     <text>"Sirens... a mysterious race of unknown origins... and with powers that can break someone's mind with their mere presence... And yet... you have made one of them your ally... Yes, I am... very impressed. Well done, traveler. Expect... rewards before your next journey."</text>

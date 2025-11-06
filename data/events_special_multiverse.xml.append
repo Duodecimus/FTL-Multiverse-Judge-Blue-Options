@@ -895,6 +895,15 @@
 		<text>Present your Dedicated Targeting Core system.</text>
 		<event load="LI_JUDGE_REWARD_TARGETING_CORE"/>
 	</choice>
+	
+	<choice hidden="true" req="ACH_BOON_LILY_FIBER_LINER_FIRST" blue="true">
+		<text>Present your Fiber Liner subsystem.</text>
+		<event load="LI_JUDGE_REWARD_FIBER_LINER"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_LILY_FIBER_LINER_REPEAT" blue="false">
+		<text>Present your Fiber Liner subsystem.</text>
+		<event load="LI_JUDGE_REWARD_FIBER_LINER"/>
+	</choice>
 
 	<choice hidden="true">
 		<text>We have nothing to show.</text>

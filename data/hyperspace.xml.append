@@ -1787,6 +1787,23 @@
 		</req>
 	</mod-append:req>
 	
+	<mod-append:req name="ACH_BOON_LILY_FIBER_LINER_FIRST" type="all">
+		<req lvl="3">
+			<name>lily_fiber_liner</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_LILY_SIREN</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_LILY_FIBER_LINER_REPEAT" type="all">
+		<req lvl="3">
+			<name>lily_fiber_liner</name>
+		</req>
+		<req lvl="1">
+			<name>ACH ACH_BOON_LILY_SIREN</name>
+		</req>
+	</mod-append:req>
+	
 <!--Lily's Beam Emporium -->
 	<mod-append:req name="ACH_BOON_LILY_SIREN_FIRST" type="all">
 		<req type="any" load="LIST_CREW_SIREN"/>
