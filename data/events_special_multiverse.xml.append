@@ -904,7 +904,16 @@
 		<text>Present your Fiber Liner subsystem.</text>
 		<event load="LI_JUDGE_REWARD_FIBER_LINER"/>
 	</choice>
-
+	
+	<choice hidden="true" req="ACH_BOON_LILY_ECM_SUITE_FIRST" blue="true">
+		<text>Present your ECM Suite system.</text>
+		<event load="LBE_JUDGE_REWARD_ECM_SUITE"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_LILY_ECM_SUITE_REPEAT" blue="false">
+		<text>Present your ECM Suite system.</text>
+		<event load="LBE_JUDGE_REWARD_ECM_SUITE"/>
+	</choice>
+	
 	<choice hidden="true">
 		<text>We have nothing to show.</text>
 		<event>
@@ -1285,11 +1294,11 @@
 	</choice>
 	
 	<choice hidden="true" req="ACH_BOON_LILY_DISINTEGRATOR_FIRST" blue="true">
-		<text>resent a Disintegrator.</text>
+		<text>Present a Disintegrator.</text>
 		<event load="LBE_JUDGE_REWARD_DISINTEGRATOR"/>
 	</choice>
 	<choice hidden="true" req="ACH_BOON_LILY_DISINTEGRATOR_REPEAT" blue="false">
-		<text>resent a Disintegrator.</text>
+		<text>Present a Disintegrator.</text>
 		<event load="LBE_JUDGE_REWARD_DISINTEGRATOR"/>
 	</choice>
 	

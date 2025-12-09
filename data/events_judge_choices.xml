@@ -1292,6 +1292,17 @@
     </choice>
 </event>
 
+<event name="LBE_JUDGE_REWARD_ECM_SUITE">
+    <text>"ECM Suite - so v-v-versatile and innovatve! Enemy [drones]: no longer pose a threat to you! For your effecive c-c-countermeasures: I provide Grant of ECM! Grant of ECM! Save it - for the future!"</text>
+    <achievement silent="false">ACH_BOON_LILY_ECM_SUITE</achievement>
+    <metaVariable name="prof_e_boon_lily_ecm_suite" op="set" val="1"/>
+    <variable name="ach_boon_lily_ecm_suite" op="set" val="1"/>
+    <choice hidden="true">
+        <text>Continue...</text>
+        <event load="THE_JUDGES_ENGI_ADVICE"/>
+    </choice>
+</event>
+
 <!--Alder's Additions-->
 <event name="AA_JUDGE_REWARD_DUSTWORM">
 	<text>"Strange beings. Alien to this reality... but why, I... cannot say. Your influence must reach... far, your careful searching... lucrative. To recruit such species is an... impressive feat. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>

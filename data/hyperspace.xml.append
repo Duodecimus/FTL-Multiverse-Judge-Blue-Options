@@ -1792,7 +1792,7 @@
 			<name>lily_fiber_liner</name>
 		</req>
 		<req lvl="0" max_lvl="0">
-			<name>ACH ACH_BOON_LILY_SIREN</name>
+			<name>ACH ACH_BOON_LILY_FIBER_LINER</name>
 		</req>
 	</mod-append:req>
 	<mod-append:req name="ACH_BOON_LILY_FIBER_LINER_REPEAT" type="all">
@@ -1800,7 +1800,24 @@
 			<name>lily_fiber_liner</name>
 		</req>
 		<req lvl="1">
-			<name>ACH ACH_BOON_LILY_SIREN</name>
+			<name>ACH ACH_BOON_LILY_FIBER_LINER</name>
+		</req>
+	</mod-append:req>
+	
+	<mod-append:req name="ACH_BOON_LILY_ECM_SUITE_FIRST" type="all">
+		<req lvl="3">
+			<name>lily_ecm_suite</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_LILY_ECM_SUITE</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_LILY_ECM_SUITE_REPEAT" type="all">
+		<req lvl="3">
+			<name>lily_ecm_suite</name>
+		</req>
+		<req lvl="1">
+			<name>ACH ACH_BOON_LILY_ECM_SUITE</name>
 		</req>
 	</mod-append:req>
 	
