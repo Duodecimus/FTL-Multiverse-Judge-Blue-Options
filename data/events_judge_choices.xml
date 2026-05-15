@@ -1,3 +1,4 @@
+<FTL>
 <!-- Zoltan Judge!-->
 <event name="JUDGE_AWARD_MORPH">
 	<text>"The failed... experiments of the Geniocracy. The strange language these... creatures speak is most undecipherable. To welcome one aboard your ship is... impressive. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
@@ -904,6 +905,15 @@
 		<event load="THE_JUDGES_ROCK_ADVICE"/>
 	</choice>
 </event>
+<event name ="FORGOTTEN_JUDGE_REWARD_HER_WILL">
+	<text>"[ERROR]... How d-d-d-did ... T-T-That shouldn't even be p-p-possible! N-N-No... I-I need to w-warn the others! B-But... Corby would never b-b-b-break the creed! So I must -reward- you still... I will give you the Grant of Touch! Grant of Touch! Save it - for the future, and n-n-never t-talk to us again!"</text>
+	<metaVariable name="prof_r_boon_fr_clicker" op="set" val="1"/>
+	<achievement silent="false">ACH_FR_BOON_CLICKER</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ENGI_ADVICE"/>
+	</choice>
+</event>
 
 <!--Insurrection + Selection!-->
 <event name="IPS_JUDGE_REWARD_HOLO">
@@ -1352,4 +1362,42 @@
 		<text>Continue...</text>
 		<event load="THE_JUDGES_ROCK_ADVICE"/>
 	</choice>
+	
+<!--Trash Compactor Collection-->
+<event name="TCC_JUDGE_REWARD_SCRAPPER">
+	<text>"The... hoarders of the Lanius. Their greed for... scrap has changed them. To invite one upon your ship is... surprising. Yes, I am... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+	<achievement silent="false">ACH_BOON_TCC_SCRAPPER</achievement>
+	<metaVariable name="prof_z_boon_tcc_scrapper" op="set" val="1"/>
+	<variable name="ach_boon_tcc_scrapper" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
 </event>
+
+<!--Bag of Dumb-->
+<event name="BOD_JUDGE_REWARD_DUCK">
+	<text>Thest looks at the duck, and slowly blinks. "Is that... a duck? As... a member of... your crew? This is certainly... new. I am not sure... whether to be impressed... or just surprised... at this. You are... a very interesting Renegade. Expect... rewards before your next journey."</text>
+	<metaVariable name="prof_z_boon_duck" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_DUCK</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+	</choice>
+</event>
+	
+<event name="BOD_JUDGE_REWARD_STATIONS">
+	<text>"What is THIS? Some kind of PROTOTYPE? Just how many PEOPLE did you have to SLAUGHTER to get your hands on this? You Renegades are like PIRATES, MURDERERS, VANDALS. Hmph. Years fighting as a SOLDIER OF LIBERTY and here I am dishing gifts out to SCUM. Still, Thest demands I give SOME reward. So be it. I shall BLESS you with the BLESSING OF STATIONS. But have PATIENCE. It is not for now, but for LATER!"</text>
+	<metaVariable name="prof_r_boon_stations" op="set" val="1"/>
+	<achievement silent="false">ACH_BOON_STATIONS</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="THE_JUDGES_ROCK_ADVICE"/>
+	</choice>
+</event>
+
+<!--
+<event name="">
+-->
+</event>
+</FTL>

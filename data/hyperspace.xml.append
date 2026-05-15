@@ -1342,7 +1342,24 @@
 			<name>ACH ACH_FR_BOON_WITHER_GUN</name>
 		</req>
 	</mod-append:req>
-	
+
+	<mod-append:req name="ACH_FR_BOON_CLICKER_FIRST" type="all">
+		<req lvl="4">
+			<name>fr_clicker</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_FR_BOON_CLICKER</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_FR_BOON_CLICKER_REPEAT" type="all">
+		<req lvl="4">
+			<name>fr_clicker</name>
+		</req>
+		<req lvl="1">
+			<name>ACH ACH_FR_BOON_CLICKER</name>
+		</req>
+	</mod-append:req>
+
 	<!--Insurrection + Selection!-->
 	<mod-append:req name="ACH_IPS_BOON_HOLO_FIRST" type="all">
 		<name>ips_holo</name>
@@ -1956,6 +1973,63 @@
 			<name>ACH ACH_BOON_MADNESS</name>
 		</req>
 	</mod-append:req>
-</mod:findLike>
+	
+<!--Trash Compactor Collection-->
+	<mod-append:req name="ACH_BOON_TCC_SCRAPPER_FIRST" type="all">
+		<req type="any" load="LIST_CREW_SCRAPPER"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_TCC_SCRAPPER</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_TCC_SCRAPPER_REPEAT" type="all">
+		<req type="any" load="LIST_CREW_SCRAPPER"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_TCC_SCRAPPER</name>
+		</req>
+	</mod-append:req>
 
+<!--Bag of Dumb-->
+	<mod-append:req name="ACH_BOON_DUCK_FIRST" type="all">
+		<name>duck</name>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_DUCK</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_DUCK_REPEAT" type="all">
+		<name>duck</name>
+		<req lvl="1">
+			<name>ACH ACH_BOON_DUCK</name>
+		</req>
+	</mod-append:req>
+	
+	<mod-append:req name="ACH_BOON_STATIONS_FIRST" type="all">
+		<req type="any" load="JUDGELIST_ROCK_STATION_LOOT"/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_STATIONS</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_STATIONS_REPEAT" type="all">
+		<req type="any" load="JUDGELIST_ROCK_STATION_LOOT"/>
+		<req lvl="1">
+			<name>ACH ACH_BOON_STATIONS</name>
+		</req>
+	</mod-append:req>
+
+
+
+</mod:findLike>
+<!--
+	<mod-append:req name="_FIRST" type="all">
+		<req type="any" load=""/>
+		<req lvl="0" max_lvl="0">
+			<name>ACH </name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="_REPEAT" type="all">
+		<req type="any" load=""/>
+		<req lvl="1">
+			<name>ACH </name>
+		</req>
+	</mod-append:req>
+-->
 </FTL>

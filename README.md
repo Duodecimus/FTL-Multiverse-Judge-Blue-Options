@@ -4,7 +4,7 @@ Specifically, it removes the judge boon event and re-adds it.
 Supports:
 * Multiverse (5.5.1)
 * Forgotten Diamonds (1.6.5)
-* Forgotten Races (16.27)
+* Forgotten Races (17.0.8)
 * Forgemaster (0.6.1.2.2)
 * Insurrection + Selection (5.5.1)
 * C&C Weapons: Renegade (5.0)
@@ -62,3 +62,5 @@ V1.12: Added three new boons from LBE 1.5.3
 V1.13: Added Fiber Liner boon from LI
 
 V1.14: Added ECM boon from LI, fixed Fiber Liner judge option to reward the Fiber Liner boon, not the siren boon
+
+V1.15: Added Two boons from Bag of Dumb, and one boon from Trash Compactor Collection, and the new boon from v17 of Forgotten Races

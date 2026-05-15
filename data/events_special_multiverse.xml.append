@@ -634,6 +634,37 @@
 		<event load="AA_JUDGE_REWARD_DUSTWORM"/>
 	</choice>
 
+<!--Trash Compactor Collection-->
+	<choice hidden="true" req="ACH_BOON_TCC_SCRAPPER_FIRST" blue="true">
+		<text>Present a Scrapper.</text>
+		<event load="TCC_JUDGE_REWARD_SCRAPPER"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_TCC_SCRAPPER_REPEAT" blue="false">
+		<text>Present a Scrapper.</text>
+		<event load="TCC_JUDGE_REWARD_SCRAPPER"/>
+	</choice>
+
+<!--Bag of Dumb-->
+	<choice hidden="true" req="ACH_BOON_DUCK_FIRST" blue="true">
+		<text>Present a Duck.</text>
+		<event load="BOD_JUDGE_REWARD_DUCK"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_DUCK_REPEAT" blue="false">
+		<text>Present a Duck.</text>
+		<event load="BOD_JUDGE_REWARD_DUCK"/>
+	</choice>
+
+<!--
+	<choice hidden="true" req="_FIRST" blue="true">
+		<text></text>
+		<event load=""/>
+	</choice>
+	<choice hidden="true" req="_REPEAT" blue="false">
+		<text></text>
+		<event load=""/>
+	</choice>
+-->
+
 	<choice hidden="true">
 		<text>We have nothing to show.</text>
 		<event>
@@ -914,6 +945,26 @@
 		<event load="LBE_JUDGE_REWARD_ECM_SUITE"/>
 	</choice>
 	
+<!--Forgotten Races!-->
+	<choice hidden="true" req="ACH_FR_BOON_CLICKER_FIRST" blue="true">
+		<text>Present Her Will.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_HER_WILL"/>
+	</choice>
+	<choice hidden="true" req="ACH_FR_BOON_CLICKER_REPEAT" blue="false">
+		<text>Present Her Will.</text>
+		<event load="FORGOTTEN_JUDGE_REWARD_HER_WILL"/>
+	</choice>
+	
+<!--
+	<choice hidden="true" req="_FIRST" blue="true">
+		<text></text>
+		<event load=""/>
+	</choice>
+	<choice hidden="true" req="_REPEAT" blue="false">
+		<text></text>
+		<event load=""/>
+	</choice>
+-->
 	<choice hidden="true">
 		<text>We have nothing to show.</text>
 		<event>
@@ -1340,6 +1391,26 @@
 		<event load="AA_JUDGE_REWARD_MADNESS"/>
 	</choice>
 
+<!--Bag of Dumb-->
+	<choice hidden="true" req="ACH_BOON_STATIONS_FIRST" blue="true">
+		<text>Present Station Loot.</text>
+		<event load="BOD_JUDGE_REWARD_STATIONS"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_STATIONS_REPEAT" blue="false">
+		<text>Present Station Loot.</text>
+		<event load="BOD_JUDGE_REWARD_STATIONS"/>
+	</choice>
+	
+<!--
+	<choice hidden="true" req="_FIRST" blue="true">
+		<text></text>
+		<event load=""/>
+	</choice>
+	<choice hidden="true" req="_REPEAT" blue="false">
+		<text></text>
+		<event load=""/>
+	</choice>
+-->
 	<choice hidden="true">
 		<text>We have nothing to show.</text>
 		<event>
