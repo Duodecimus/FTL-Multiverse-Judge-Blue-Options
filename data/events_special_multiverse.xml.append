@@ -1400,6 +1400,16 @@
 		<text>Present Station Loot.</text>
 		<event load="BOD_JUDGE_REWARD_STATIONS"/>
 	</choice>
+
+<!--Ars+ Challenges-->
+	<choice hidden="true" req="ACH_BOON_CHALL_SOUL_FIRST" blue="true">
+		<text id="THE_JUDGES_ANY_SOULREAPER_choice"/>
+		<event load="ARS_JUDGE_REWARD_SOULREAPER"/>
+	</choice>
+	<choice hidden="true" req="ACH_BOON_CHALL_SOUL_REPEAT" blue="false">
+		<text id="THE_JUDGES_ANY_SOULREAPER_choice"/>
+		<event load="ARS_JUDGE_REWARD_SOULREAPER"/>
+	</choice>
 	
 <!--
 	<choice hidden="true" req="_FIRST" blue="true">

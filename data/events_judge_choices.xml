@@ -1362,6 +1362,7 @@
 		<text>Continue...</text>
 		<event load="THE_JUDGES_ROCK_ADVICE"/>
 	</choice>
+</event>
 	
 <!--Trash Compactor Collection-->
 <event name="TCC_JUDGE_REWARD_SCRAPPER">
@@ -1396,8 +1397,18 @@
 	</choice>
 </event>
 
+<!--Ars+ Challenges-->
+<event name="ARS_JUDGE_REWARD_SOULREAPER">
+    <text id="THE_JUDGES_ANY_SOULREAPER_text"/>
+    <achievement silent="false">ACH_BOON_CHALL_SOUL</achievement>
+    <metaVariable name="prof_r_boon_chall_soul" op="set" val="1"/>
+    <variable name="ach_boon_chall_soul" op="set" val="1"/>
+    <choice hidden="true">
+        <text id="continue"/>
+        <event load="THE_JUDGES_ROCK_ADVICE"/>
+    </choice>
+</event>
 <!--
 <event name="">
 -->
-</event>
 </FTL>

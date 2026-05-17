@@ -15,6 +15,9 @@ Supports:
 * Lily's Beam Emporium (1.5.4)
 * Expanded Multiverse (0.6.1)
 * Alder's Additions (2.1.1)
+* Trash Compactor Collection (1.2.6)
+* Bag of Dumb (Fix v1)
+* Ars+ Challenges (1.3)
 
 Any other mods that also modify boons will need to be loaded after this mod.
 
@@ -64,3 +67,5 @@ V1.13: Added Fiber Liner boon from LI
 V1.14: Added ECM boon from LI, fixed Fiber Liner judge option to reward the Fiber Liner boon, not the siren boon
 
 V1.15: Added Two boons from Bag of Dumb, and one boon from Trash Compactor Collection, and the new boon from v17 of Forgotten Races
+
+V1.16: Added Boon from Ars+ Challenges, fixed the mod being totally broken in 1.15

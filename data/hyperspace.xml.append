@@ -2015,7 +2015,23 @@
 		</req>
 	</mod-append:req>
 
-
+<!--Ars+ Challenges-->
+	<mod-append:req name="ACH_BOON_CHALL_SOUL_FIRST" type="all">
+		<req lvl="1">
+			<name>ANY_SOULREAPER</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>ACH ACH_BOON_CHALL_SOUL</name>
+		</req>
+	</mod-append:req>
+	<mod-append:req name="ACH_BOON_CHALL_SOUL_REPEAT" type="all">
+		<req lvl="1">
+			<name>ANY_SOULREAPER</name>
+		</req>
+		<req lvl="1">
+			<name>ACH ACH_BOON_CHALL_SOUL</name>
+		</req>
+	</mod-append:req>
 
 </mod:findLike>
 <!--
